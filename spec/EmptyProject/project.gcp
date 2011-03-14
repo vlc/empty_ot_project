@@ -61,7 +61,7 @@
   JobButtonsCount=0
 
 [Project]
-  Name=BedrockTestProject
+  Name=EmptyProject
   OrderNr=0
   Level=0
   Categories=Test Variants|Reference variants
@@ -222,7 +222,7 @@
   Last_BottomMarginValue=12
 
 [Predefine Types]
-  Types=Bars$Flows$Labels for Areas$Labels for Controls$Labels for Counts$Labels for Links$Labels for Nodes$Labels for Routes$Labels for Screenlines$Labels for Stops$Labels for Transit$Labels for Turns$Labels for Zones$Loads$Object Colors$Pies$Queries$Reports
+  Types=Labels for Areas$Labels for Counts$Labels for Links$Labels for Nodes$Labels for Screenlines$Labels for Stops$Labels for Transit$Labels for Turns$Labels for Zones$Loads$Queries$Reports
 
 [Predefined Labels for Links]
   PreDefines=11

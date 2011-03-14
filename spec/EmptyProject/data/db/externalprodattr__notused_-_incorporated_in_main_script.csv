@@ -1,0 +1,6 @@
+000005,000000,Struct,recno:Integer,pa_id:Integer,purpose:String,demovar:String,prod_or_attr:String,coeff:Float
+1,0,ExtCar,externals,prod,0.5
+2,1,ExtCar,households,attr,1
+3,2,ExtTrk,externals,prod,0.5
+4,3,ExtTrk,emp_manuf,attr,1
+5,4,ExtTrk,emp_trst,attr,1

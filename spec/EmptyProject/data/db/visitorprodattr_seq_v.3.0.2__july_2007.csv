@@ -1,0 +1,27 @@
+000026,000000,Struct,recno:Integer,pa_id:Integer,purpose:String,demovar:String,prod_or_attr:String,coeff:Float
+1,0,VHBR,vis_aust,prod,1.6200
+2,1,VHBR,vis_os,prod,1.62
+3,2,VHBR,households,attr,0.0617
+4,3,VHBR,enrol_sec,attr,0.0206
+5,4,VHBR,enrol_ter,attr,0.0384
+6,5,VHBR,emp_ret,attr,0.3081
+7,6,VHBR,emp_cserv,attr,0.3816
+8,7,VHBR,emp_recps,attr,0.9513
+9,8,VHBR,spec_rec_vis,attr,0.5
+10,9,VHBS,vis_aust,prod,0.7100
+11,10,VHBS,vis_os,prod,0.7100
+12,11,VHBS,emp_wh,attr,0.4886
+13,12,VHBS,emp_ret,attr,6.5668
+14,13,VHBS,emp_recps,attr,2.7200
+15,14,VHBO,vis_aust,prod,0.4700
+16,15,VHBO,vis_os,prod,0.4700
+17,16,VHBO,households,attr,0.0691
+18,17,VHBO,enrol_ppr,attr,0.0209
+19,18,VHBO,enrol_sec,attr,0.0364
+20,19,VHBO,enrol_ter,attr,0.1075
+21,20,VHBO,emp_ret,attr,1.0141
+22,21,VHBO,emp_recps,attr,1.0338
+23,22,VHseq,vis_aust,prod,0.125
+24,23,VHseq,households,attr,1.0
+25,24,VNHB Control,vis_aust,both,0.5000
+26,25,VNHB Control,vis_os,both,0.4500

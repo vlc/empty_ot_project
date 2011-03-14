@@ -1,0 +1,73 @@
+RunID,Status,Run description,Metro,Year,Land Use,Road,Rail,Bus,Fares,Frequency,Car,Priority,Period,White Bay,Model,Computer,Iterations,Known issues,Demographic profile,Occupational Profile,Period allocation,Stop specific car access penalties,Stop specific interchange penalties,Global metro penalties
+1a,Latest,Reference Case,No Metro,2021,LU3a,R1,Rail C,B1,Fa1,22-Dec,C1,15,AM1,WBoff,Full,Rice,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+2a,Latest,Reference Case,No Metro,2031,LU3a,R1,Rail C,B1,Fa1,24-Dec,C1,2,AM1,WBoff,Full,Fawcett,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+3a,Latest,Reference Case,No Metro,2041,LU3a,R1,Rail C,B1,Fa1,26-Dec,C1,5,AM1,WBoff,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+4a,Superceded,Reference Case,MCWN1,2021,LU3a,R1,Rail C,BCWN,Fa1,22-Dec,C1,16,AM1,WBoff,Full,Hewitt,4,No domestic,TDC,LGA,CBD/Other,ca2,ss1,mp1
+4b,Latest,Reference Case,MCWN1,2021,LU3a,R1,Rail C,BCWN,Fa1,22-Dec,C1,16,AM1,WBoff,Full,PB3,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+5a,Superceded,Reference Case,MCWN1,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C1,1,AM1,WBon,Full,Rice,4,No domestic,TDC,LGA,CBD/Other,ca2,ss1,mp1
+5b,Latest,Reference Case,MCWN1,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C1,1,AM1,WBon,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+6a,Superceded,Reference Case,MCWN1,2041,LU3a,R1,Rail C,BCWN,Fa1,26-Dec,C1,4,AM1,WBon,Full,Hewitt,4,No domestic,TDC,LGA,CBD/Other,ca2,ss1,mp1
+6b,Latest,Reference Case,MCWN1,2041,LU3a,R1,Rail C,BCWN,Fa1,26-Dec,C1,4,AM1,WBon,Full,PB4,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+7a,Latest,Metro Staging - CBD,MC1,2021,LU3a,R1,Rail C,BC,Fa1,22-Dec,C1,23,AM1,WBoff,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+8a,Superceded,Metro Staging - CBD,MC1,2031,LU3a,R1,Rail C,BC,Fa1,24-Dec,C1,6,AM1,WBon,Full,PB3,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+8b,Latest,Metro Staging - CBD,MC1,2031,LU3a,R1,Rail C,BC,Fa1,24-Dec,C1,6,AM1,WBon,Full,Haydos,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+9a,Superceded,Metro Staging - CBD,MC1,2041,LU3a,R1,Rail C,BC,Fa1,26-Dec,C1,7,AM1,WBon,Full,PB4,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+9b,Latest,Metro Staging - CBD,MC1,2041,LU3a,R1,Rail C,BC,Fa1,26-Dec,C1,7,AM1,WBon,Full,Odin,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+10a,Latest,Metro Staging - Inner West + CBD Metro,MCW2,2021,LU3a,R1,Rail C,BCW,Fa1,22-Dec,C1,24,AM1,WBoff,Full,Fawcett,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+11a,Superceded,Metro Staging - Inner West + CBD Metro,MCW2,2031,LU3a,R1,Rail C,BCW,Fa1,24-Dec,C1,8,AM1,WBon,Full,Jacko,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+11b,Latest,Metro Staging - Inner West + CBD Metro,MCW2,2031,LU3a,R1,Rail C,BCW,Fa1,24-Dec,C1,8,AM1,WBon,Full,PB3,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+12a,Superceded,Metro Staging - Inner West + CBD Metro,MCW2,2041,LU3a,R1,Rail C,BCW,Fa1,26-Dec,C1,9,AM1,WBon,Full,Fawcett,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+12b,Latest,Metro Staging - Inner West + CBD Metro,MCW2,2041,LU3a,R1,Rail C,BCW,Fa1,26-Dec,C1,9,AM1,WBon,Full,PB4,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+13a,Latest,Metro Staging - (Full) West + CBD Metro,MCW1,2021,LU3a,R1,Rail C,BCW,Fa1,22-Dec,C1,25,AM1,WBoff,Full,Fawcett,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+14a,Superceded,Metro Staging - (Full) West + CBD Metro,MCW1,2031,LU3a,R1,Rail C,BCW,Fa1,24-Dec,C1,10,AM1,WBon,Full,Monty,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+14b,Latest,Metro Staging - (Full) West + CBD Metro,MCW1,2031,LU3a,R1,Rail C,BCW,Fa1,24-Dec,C1,10,AM1,WBon,Full,Fawcett,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+15a,Superceded,Metro Staging - (Full) West + CBD Metro,MCW1,2041,LU3a,R1,Rail C,BCW,Fa1,26-Dec,C1,11,AM1,WBon,Full,Warne,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+15b,Latest,Metro Staging - (Full) West + CBD Metro,MCW1,2041,LU3a,R1,Rail C,BCW,Fa1,26-Dec,C1,11,AM1,WBon,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+16a,Latest,Metro Staging - NW + CBD Metro,MCN1,2021,LU3a,R1,Rail C,BCN,Fa1,22-Dec,C1,26,AM1,WBoff,Full,Rice,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+17a,Latest,Metro Staging - NW + CBD Metro,MCN1,2031,LU3a,R1,Rail C,BCN,Fa1,24-Dec,C1,17,AM1,WBon,Full,Monty,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+18a,Superceded,Metro Staging - NW + CBD Metro,MCN1,2041,LU3a,R1,Rail C,BCN,Fa1,26-Dec,C1,18,AM1,WBon,Full,Monty,4,No domestic,TDC,LGA,CBD/Other,ca2,ss1,mp1
+18b,Latest,Metro Staging - NW + CBD Metro,MCN1,2041,LU3a,R1,Rail C,BCN,Fa1,26-Dec,C1,18,AM1,WBon,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+19a,Latest,Metro Staging - Inner West + NW + CBD Metro,MCWN5,2021,LU3a,R1,Rail C,BCWN,Fa1,22-Dec,C1,27,AM1,WBoff,Full,Hewitt,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+20a,Latest,Metro Staging - Inner West + NW + CBD Metro,MCWN5,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C1,19,AM1,WBon,Full,Hewitt,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+21a,Latest,Metro Staging - Inner West + NW + CBD Metro,MCWN5,2041,LU3a,R1,Rail C,BCWN,Fa1,26-Dec,C1,20,AM1,WBon,Full,Rice,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+22a,Superceded,Road Network - No M4 East,MC1,2031,LU3a,R2,Rail C,BC,Fa1,24-Dec,C1,12,AM1,WBon,Full,Rice,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+22b,Superceded,Road Network - No M4 East,MC1,2031,LU3a,R2,Rail C,BC,Fa1,24-Dec,C1,12,AM1,WBon,Full,Fawcett,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+22c,Latest,Road Network - No M4 East,MCWN1,2031,LU3a,R2,Rail C,BCWN,Fa1,24-Dec,C1,12,AM1,WBon,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+23a,Running,Land Use - Metro Strategy,MCWN1,2031,LU1,R1,Rail C,BCWN,Fa1,24-Dec,C1,21,AM1,WBoff,Full,PB4,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+24a,Superceded,Land Use - Economic Base,MCWN1,2031,LU2,R1,Rail C,BCWN,Fa1,24-Dec,C1,3,AM1,WBoff,Full,Hewitt,4,No domestic,TDC,LGA,CBD/Other,ca2,ss1,mp1
+24b,Latest,Land Use - Economic Base,MCWN1,2031,LU2,R1,Rail C,BCWN,Fa1,24-Dec,C1,3,AM1,WBoff,Full,Haydos,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+25a,Latest,Land Use - Base with redistribution (for CBD Metro),No Metro,2031,LU2,R1,Rail C,B1,Fa1,24-Dec,C1,13,AM1,WBoff,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+26a,To be superceded,Land Use - Base with redistribution (for CBD Metro),MC1,2031,LU2,R1,Rail C,BC,Fa1,24-Dec,C1,14,AM1,WBoff,Full,Fawcett,4,"No domestic, ECRL stations",TDC,LGA,CBD/Other,ca2,ss1,mp1
+26b,Running,Land Use - Base with redistribution (for CBD Metro),MC1,2031,LU2,R1,Rail C,BC,Fa1,24-Dec,C1,14,AM1,WBoff,Full,Warne,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+27a,Latest,Land Use - Base with redistribution (for Metro 1),No Metro,2031,LU3b,R1,Rail C,B1,Fa1,24-Dec,C1,22,AM1,WBoff,Full,PB3,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+28a,To be superceded,Land Use - Base with redistribution (for Metro 1),MCWN1,2031,LU3b,R1,Rail C,BCWN,Fa1,24-Dec,C1,28,AM1,WBon,Full,PB4,4,No domestic,TDC,LGA,CBD/Other,ca2,ss1,mp1
+28b,Running,Land Use - Base with redistribution (for Metro 1),MCWN1,2031,LU3b,R1,Rail C,BCWN,Fa1,24-Dec,C1,28,AM1,WBon,Full,Rice,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+29a,Latest,Land Use - high growth with redist. (for Metro 1),No Metro,2031,LU4,R1,Rail C,B1,Fa1,24-Dec,C1,29,AM1,WBoff,Full,Hewitt,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+30a,Running,Land Use - high growth with redist. (for Metro 1),MCWN1,2031,LU4,R1,Rail C,BCWN,Fa1,24-Dec,C1,30,AM1,WBon,Full,Hewitt,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+31a,,CityRail Network - alternative no metro: CBD relief line,No Metro,2031,LU3a,R1,Rail E,B1,Fa1,24-Dec,C1,31,AM1,WBoff,assign.,,NA,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+32a,Planned,CityRail Network - CBD metro with 18 western fast,MC1,2031,LU3a,R1,Rail2a,BC,Fa1,24-Dec,C1,32,AM1,WBon,assign.,Jacko,NA,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+33a,Planned,CityRail Network - CBD metro with 8 western fast,MC1,2031,LU3a,R1,RailD,BC,Fa1,24-Dec,C1,33,AM1,WBon,assign.,Jacko,NA,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+34a,,CityRail Network - alternative with metro: more west services,MCWN1,2031,LU3a,R1,RailC+,BCWN,Fa1,24-Dec,C1,34,AM1,WBon,assign.,,NA,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+35a,Queued,Metro 1 - no Camellia,MCWN2,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C1,35,AM1,WBon,Full,Rice,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+36a,,Fares - integrated rail fares but not other modes,MCWN1,2031,LU3a,R1,Rail C,BCWN,Fa2,24-Dec,C1,36,AM1,WBon,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+37a,,Car Travel - higher car costs (combined),No Metro,2031,LU3a,R1,Rail C,B1,Fa1,24-Dec,C5,37,AM1,WBoff,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+38a,,Car Travel - higher car costs (combined),MCWN1,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C5,38,AM1,WBon,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+39a,Running,Car Travel - higher centres car costs,No Metro,2031,LU3a,R1,Rail C,B1,Fa1,24-Dec,C2,39,AM1,WBoff,Full,Fawcett,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+40a,Queued,Car Travel - higher centres car costs,MCWN1,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C2,40,AM1,WBon,Full,Fawcett,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+41a,,Car Travel - higher petrol prices,No Metro,2031,LU3a,R1,Rail C,B1,Fa1,24-Dec,C3,41,AM1,WBoff,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+42a,Running,Car Travel - higher petrol prices,MCWN1,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C3,42,AM1,WBon,Full,Warne,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+43a,,Car Travel - slower travel times,No Metro,2031,LU3a,R1,Rail C,B1,Fa1,24-Dec,C4,43,AM1,WBoff,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+44a,,Car Travel - slower travel times,MCWN1,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C4,44,AM1,WBon,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+45a,Planned,Frequency - higher frequency,MCWN1,2031,LU3a,R1,Rail C,BCWN,Fa1,30-Dec,C1,45,AM1,WBon,assign.,Jacko,NA,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+46a,Running,Road Network - No M4 East,No Metro,2031,LU3a,R2,Rail C,B1,Fa1,24-Dec,C1,46,AM1,WBon,Full,Jacko,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+47a,,Land Use - Metro Strategy,No Metro,2031,LU3a,R1,Rail C,B1,Fa1,24-Dec,C1,47,AM1,WBon,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+48a,,Land Use - Economic Base,No Metro,2031,LU3a,R1,Rail C,B1,Fa1,24-Dec,C1,48,AM1,WBon,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+49a,,Metro 1 - Granville PnR,MCWN3,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C1,49,AM1,WBoff,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+50a,Running,Metro 1 - M2 Parkway end,MCWN4,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C1,50,AM1,WBon,Full,PB3,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+51a,,Bus - no integration,MCWN4,2031,LU3a,R1,Rail C,BCWN,Fa1,24-Dec,C1,51,AM1,WBoff,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+52a,,Fares - integrated rail fares but not other modes,No Metro,2031,LU3a,R1,Rail C,B1,Fa2,24-Dec,C1,52,AM1,WBon,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+53a,Latest,Reference Case (Rail D),No Metro,2021,LU3a,R1,Rail D,B1,Fa1,22-Dec,C1,15,AM1,WBoff,Full,Rice,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+54a,Latest,Reference Case (Rail D),No Metro,2031,LU3a,R1,Rail D,B1,Fa1,24-Dec,C1,2,AM1,WBoff,Full,Fawcett,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+55a,Latest,Reference Case (Rail D),No Metro,2041,LU3a,R1,Rail D,B1,Fa1,26-Dec,C1,5,AM1,WBoff,Full,Hewitt,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+56a,,Reference Case,No Metro,2031,LU2,R1,Rail D,B1,Fa2,24-Dec,C1,,AM1,WBon,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1
+57a,,Reference Case,MCWN1,2031,LU2,R1,Rail D,BCWN,Fa2,24-Dec,C1,,AM1,WBon,Full,,4,,TDC,LGA,CBD/Other,ca2,ss1,mp1

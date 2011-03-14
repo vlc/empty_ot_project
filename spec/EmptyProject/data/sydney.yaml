@@ -1,0 +1,107 @@
+--- 
+notify_by_sms: ""
+mode_split_walk_skim_factor: 1.25
+tgCoeffTables: 
+- area: ""
+  tables: [prod_&_attr_seq_v.4.1.1__april_2009,visitorprodattr_seq_v.3.0.2__july_2007,externalprodattr__notused_-_incorporated_in_main_script]
+default_groups: [101, 102, 103, 104, 105, 106, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125]
+parkingChargesTableName: sydneymetrorun09
+company_car_proportions: 
+  VNHB: 0.074
+  SBO: 0.065
+  SpRec: 0.086
+  WBW: 0.437
+  SpRBV: 0.086
+  VHBO: 0.078
+  HBR: 0.086
+  HBS: 0.068
+  HTE: 0.034
+  SBS: 0.051
+  WBO: 0.151
+  HSE: 0.0
+  Vhseq: 0.157
+  VHBR: 0.086
+  VHBS: 0.068
+  ONHB: 0.074
+  HBW: 0.157
+  WBS: 0.196
+  HWB: 0.157
+  HWW: 0.157
+  SpRBH: 0.086
+  HBO: 0.078
+  HPR: 0.0
+segGroupModeSplitTableName: segmentgroups_modesplit-from46c
+segModeSplitTableName: segments_modesplit(exmelb_ext)
+mode_split_accumulations: 
+  Tolling_LCV: 
+    sum: 
+    - to: 1
+      purposes: [LTTRK]
+    - to: LCV
+      modes: CommVeh
+    - to: 1
+      users: [Outward, Return]
+    group_by: 
+      times: any
+  PT_Car_Access: 
+    sum: 
+    - to: 1
+      purposes: all
+    group_by: 
+      modes: PT_Car_Access
+      times: any
+      users: [Outward,Return]
+  Tolling_subclasses_company_car: 
+    sum: 
+    - to: 1
+      purposes: all
+    - to: 1
+      users: [Outward, Return]
+    group_by: 
+      modes: [CompanyCar, NonCompanyCar]
+      times: any
+  Tolling_HCV: 
+    sum: 
+    - to: 1
+      purposes: [HVTRK,PORTTRK,EXTTrk]
+    - to: HCV
+      modes: CommVeh
+    - to: 1
+      users: [Outward, Return]
+    group_by: 
+      times: any
+  Tolling_subclasses_airport: 
+    sum: 
+    - to: 1
+      purposes: [ABH,ABW,ABV]
+    - to: AirportCar
+      modes: Car
+    - to: 1
+      users: [Outward, Return]
+    group_by: 
+      times: any
+  Core_assignables: 
+    sum: 
+    - to: 1
+      purposes: all
+    - to: 1
+      users: [Outward,Return]
+    group_by: 
+      modes: [Car, CommVeh, Walk, PCar,PT_Walk_Access]
+      times: any
+purposeNamesEquivTable: Purpose_Names_Equivalence
+skimFactorTableName: segmentgroups_skimfactor
+travelMarketSegCoeffTbl: TravelMarketSeg_Coefficients
+vehicleOccupancyFactorsTable: segments_vehoccupancy-syd_vers-1-1-1
+round_assignables_to: 2
+round_distribution_to: 1
+cycle_fractions: [1.0,0.7,0.5,1.0]
+timePeriodFactorTableName: segments_timeperiodsplit_by_area
+distributionFactorTableName: segments_tripdistribution-syd_vers-1-1-1
+do_toll_diversion: true
+round_mode_choice_to: 2
+segGroupTableName: segmentgroups
+legacy: false
+logitSegmentCoeffsTable: LogitSeg_Coefficients
+travelMarketSegTbl: TravelMarketSeg
+logitSegmentTable: LogitSeg

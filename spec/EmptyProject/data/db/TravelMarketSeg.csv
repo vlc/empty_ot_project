@@ -1,0 +1,9 @@
+000008,000000,Struct,recno:Integer,SegmentID:Integer,Rate:String,ControlTotal:String
+1,1,CarsperHH,HBW Bl
+2,2,CarsperHH,HBW Wh
+3,3,CarsperHH,HBE PPr
+4,4,CarsperHH,HBE Sec
+5,5,CarsperHH,HBE Ter
+6,6,CarsperHH,HBS
+7,7,CarsperHH,HBR
+8,8,CarsperHH,HBO

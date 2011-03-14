@@ -1,0 +1,339 @@
+
+[Description]
+  Description=DIMENSIONS@#  Purpose@#       1:Total@#       2:ParkingCharge@#       3:SkimAdjustmentGroups@#         10:Groups@#         20:Aggregates@#         30:TollingMarketSegments@#           31:Airport@#           32:CompanyCar@#           33:NonCompanyCar@#           34:LCV@#           35:HCV@#           101:WB01_group@#           102:WB2_group@#           103:WB3_group@#           104:WW01_group@#           105:WW2_group@#           106:WW3_group@#           107:PPR_group@#           108:SEC_group@#           109:TER_group@#           110:S01_group@#           111:S23_group@#           112:R01_group@#           113:R23_group@#           114:HBO_group@#           115:WBW_group@#           116:WBS_group@#           117:WBO_group@#           118:NHS_group@#           119:ONHB_group@#           120:Airport_group@#           121:SpRec_group@#           122:CV_group@#           123:HVI_group@#           124:NHVI_group@#           125:EXT_group@#           201:Home_To_Work@#           202:Home_To_Shopping@#           203:Home_To_Recreation@#           204:Home_To_Education@#           205:Other_Home_Based@#           206:Other_Non_Home_Based@#           207:Home_To_BWork@#           208:Home_To_WWork@#           209:Work_Based@#           210:Shopping_Based@#           211:Other_Based@#           212:Airport_Based@#             1001:HWB0@#             1002:HWB1@#             1003:HWB2@#             1004:HWB3@#             1005:HWW0@#             1006:HWW1@#             1007:HWW2@#             1008:HWW3@#             1009:HPR0@#             1010:HPR1@#             1011:HPR2@#             1012:HPR3@#             1013:HSE0@#             1014:HSE1@#             1015:HSE2@#             1016:HSE3@#             1017:HTE0@#             1018:HTE1@#             1019:HTE2@#             1020:HTE3@#             1021:HBS0@#             1022:HBS1@#             1023:HBS2@#             1024:HBS3@#             1025:HBR0@#             1026:HBR1@#             1027:HBR2@#             1028:HBR3@#             1029:HBO0@#             1030:HBO1@#             1031:HBO2@#             1032:HBO3@#             1033:WBW@#             1034:WBS@#             1035:WBO@#             1036:SBS@#             1037:SBO@#             1038:ONHB@#             1039:ABH@#             1040:ABW@#             1041:ABV@#             1042:SpRBH@#             1043:SpRBV@#             1044:LTTRK@#             1045:HVTRK@#             1046:PORTTRK@#             1047:VHBR@#             1048:VHBS@#             1049:VHBO@#             1050:VNHB@#             1051:EXTCar@#             1052:EXTTrk@#             1053:Vhseq@#             1054:SpRec@#         2001:Reduced@#         2002:Full@#         2003:High@#         3001:CBDInternalWalkAdjustment@#         3002:CBDOrientatedWalkAdjustment@#  Mode@#       1:Total@#         10:Mechanised@#         30:Walk (Network)  (Walk) @#         50:CommVeh (Network) @#           51:LCV@#           52:HCV@#           53:SHCV@#         60:TotalLoad (Network) @#           100:Car (Network) @#           101:PCar@#           200:PT (Network)  (Transit) @#             201:Monorail (Transit) @#             202:LightRail (Transit) @#             203:CityRail (Transit) @#             204:ManlyJetCat (Transit) @#             205:ManlyFerry (Transit) @#             206:InnerHarbourFerry1 (Transit) @#             207:InnerHarbourFerry2 (Transit) @#             208:Bus (Transit) @#             209:Metro (Transit) @#             2001:PT_Car_Access (Transit) @#             2002:PT_Walk_Access (Transit) @#  Time@#       1:Total@#         11:Pre_AM (Network) @#         12:AM (Network) @#         13:MD (Network) @#         14:PM (Network) @#         15:Post_PM (Network) @#           121:AM1@#  User@#       1:Total@#       2:SkimAdjustmentMatrix@#         11:Outward@#         12:Return@#         21:Add@#         22:Subtract@#         23:Multiply@#         24:Divide@#         25:Disconnect@#         26:Assign@#  Result@#       1:Total@#       2:Distribution@#       3:ModeSplit@#       4:ODMat@#       5:Aggregates@#         11:Time@#         12:Cost@#         13:Load@#         14:Fare@#         15:Prob@#         16:Distance@#         17:Toll@#         18:FixedCost@#         41:ODMat_Weekend@#         51:Aggregates_Weekend@#           131:PrelimLoad@#           132:PTLoad@#           133:TolledLoad@#           134:UntolledLoad@#  Iteration@#       1:Iteration1@#       2:Iteration2@#       3:Iteration3@#       4:Iteration4@#       5:Iteration5@#       6:Iteration6@#       7:Iteration7@#       8:Iteration8@#       9:Iteration9@#       10:Iteration10@#       11:Iteration11@#       12:Iteration12@#       13:Iteration13@#       14:Iteration14@#       15:Iteration15@#       16:Iteration16@#       17:Iteration17@#       18:Iteration18@#       19:Iteration19@#       20:Iteration20@#       21:Iteration21@#       22:Iteration22@#       23:Iteration23@#       24:Iteration24@#       25:Iteration25@#@#TYPES@#   1:LinkType@#       1:All Modes Centroid Connector@#       2:All Modes@#       3:All Modes@#       4:All Modes@#       5:All Modes@#       6:All Modes@#       7:All Modes@#       8:All Modes@#       9:All Modes@#       10:All Modes@#       11:All Modes@#       12:All Modes@#       13:All Modes@#       14:All Modes@#       15:All Modes@#       16:All Modes@#       17:All Modes@#       18:All Modes@#       19:All Modes@#       20:All Modes@#       21:All Modes@#       22:All Modes@#       23:All Modes@#       24:All Modes@#       25:Vehicular Ferries Only@#       26:Vehicular Ferry Toll@#       27:Mogill Barge Toll Link@#       28:UQ Green Bridge Link@#       29:All Mode Expansion (Special Link Types)@#       30:All Mode Expansion (Special Link Types)@#       31:Walking Only Centroid Connectors@#       32:Walk Only Links@#       33:Ferry Access@#       34:Rail/Tram Access@#       35:PT Expansion (Special Link Types)@#       36:PT Expansion (Special Link Types)@#       37:PT Expansion (Special Link Types)@#       38:PT Expansion (Special Link Types)@#       39:PT Expansion (Special Link Types)@#       40:Passenger Ferries Only@#       41:Passenger Ferries Only@#       42:Passenger Ferries Only@#       43:Passenger Ferries Only@#       44:Passenger Ferries Only@#       45:Passenger Ferries Only@#       46:Passenger Ferries Only@#       47:Passenger Ferries Only@#       48:Passenger Ferries Only@#       49:Passenger Ferries Only@#       50:Passenger Ferries Only@#       51:Passenger Ferries Only@#       52:Passenger Ferries Only@#       53:Passenger Ferries Only@#       54:Passenger Ferries Only@#       55:Passenger Ferries Expansion (Special Link Types)@#       56:Passenger Ferries Expansion (Special Link Types)@#       57:Passenger Ferries Expansion (Special Link Types)@#       58:Passenger Ferries Expansion (Special Link Types)@#       59:Passenger Ferries Expansion (Special Link Types)@#       60:Bus Only@#       61:Bus Only@#       62:Bus Only@#       63:Bus Only@#       64:Bus Only@#       65:Bus Only@#       66:Bus Only@#       67:Bus Only@#       68:Bus Only@#       69:Bus Only@#       70:Bus Only@#       71:Bus Only@#       72:Bus Only@#       73:Bus Only@#       74:Bus Only@#       75:Bus Only@#       76:Bus Only@#       77:Bus Expansion (Special Link Types)@#       78:Bus Expansion (Special Link Types)@#       79:Bus Expansion (Special Link Types)@#       80:Train Only@#       81:Train Only@#       82:Train Only@#       83:Train Only@#       84:Train Only@#       85:Train Only@#       86:Train Only@#       87:Train Only@#       88:Train Only@#       89:Train Only@#       90:Train Only@#       91:Train Only@#       92:Train Only@#       93:Train Only@#       94:Train Only@#       95:Train Only@#       96:Train Only@#       97:Train Only@#       98:Train Expansion (Special Link Types)@#       99:Train Expansion (Special Link Types)@#       100:Tram Only@#       101:Tram Only@#       102:Tram Only@#       103:Tram Only@#       104:Tram Only@#       105:Tram Only@#       106:Tram Only@#       107:Tram Only@#       108:Tram Only@#       109:Tram Only@#       110:Tram Only@#       111:Tram Only@#       112:Tram Only@#       113:Tram Only@#       114:Tram Only@#       115:Tram Only@#       116:Tram Only@#       117:Tram Only@#       118:Tram Only@#       119:Tram Expansion (Special Link Types)@#       120:T2 Lanes@#       121:T2 Lanes@#       122:T2 Lanes@#       123:T2 Lanes@#       124:T2 Lanes@#       125:T2 Lanes@#       126:T2 Lanes@#       127:T2 Lanes@#       128:T2 Lanes@#       129:T2 Lanes@#       130:T2 Lanes@#       131:T2 Lanes@#       132:T2 Lanes@#       133:T2 Lanes@#       134:T2 Lanes@#       135:T2 Lanes@#       136:T2 Lanes@#       137:T2 Lanes Expansion (Special Link Types)@#       138:T2 Lanes Expansion (Special Link Types)@#       139:T2 Lanes Expansion (Special Link Types)@#       140:T3 Lanes@#       141:T3 Lanes@#       142:T3 Lanes@#       143:T3 Lanes@#       144:T3 Lanes@#       145:T3 Lanes@#       146:T3 Lanes@#       147:T3 Lanes@#       148:T3 Lanes@#       149:T3 Lanes@#       150:T3 Lanes@#       151:T3 Lanes@#       152:T3 Lanes@#       153:T3 Lanes@#       154:T3 Lanes@#       155:T3 Lanes@#       156:T3 Lanes@#       157:T3 Lanes Expansion (Special Link Types)@#       158:T3 Lanes Expansion (Special Link Types)@#       159:T3 Lanes Expansion (Special Link Types)@#       160:All Modes excpet Walk/Cycle@#       161:All Modes excpet Walk/Cycle@#       162:All Modes excpet Walk/Cycle@#       163:All Modes excpet Walk/Cycle@#       164:All Modes excpet Walk/Cycle@#       165:All Modes excpet Walk/Cycle@#       166:All Modes excpet Walk/Cycle@#       167:All Modes excpet Walk/Cycle@#       168:All Modes excpet Walk/Cycle@#       169:All Modes excpet Walk/Cycle@#       170:All Modes excpet Walk/Cycle@#       171:All Modes excpet Walk/Cycle@#       172:All Modes excpet Walk/Cycle@#       173:All Modes excpet Walk/Cycle@#       174:All Modes excpet Walk/Cycle@#       175:All Modes excpet Walk/Cycle@#       176:All Modes excpet Walk/Cycle@#       177:All Modes excpet Walk/Cycle@#       178:All Modes excpet Walk/Cycle@#       179:All Modes excpet Walk/Cycle@#       999:WalkIntPenalty@#   2:TimeSplitZone@#   3:TollGroups@#       2:M7@#   4:FareZone@#   5:ParkingZone@#       2:CBDNonCore@#       3:CBDFrame@#       4:NorthSydney@#       5:Parramatta@#       6:Liverpool@#       7:MacquarieUni@#       8:UniNSW@#       9:UniWS@#       10:SydUni@#       11:UTS@#       12:Chatswood@#       13:Blacktown@#       14:Penrith@#       15:Cabramatta@#       16:Fairfield@#       17:Lidcombe@#       18:Strathfield@#       19:Burwood@#       20:Ashfield@#       21:Epping@#       22:Eastwood@#       23:WestRyde@#       24:Gosford@#       25:Hornsby@#       26:StLeonards@#       27:Hurstville@#       28:Bankstown@#   6:SkimAdjustment@#   7:WalkingZone@#@#JOBS@#  OC-tripends@#  transpose skims@#  OC_06_01_NoMetroMATRICES@#  zmr_gen_and_dist_1hr@#  import 24 mats@#  zmr_test_assignhw@#  validate_24hr_mats@#  OC_06_14_CBD_HTS_skims@#  test@#  OC_06_14_CBD_HTS_loads@#  OC-31_7_CBD_rR2A_bE2_HTS@#  OC_06_14_CBD_HTS@#  a@#  zmr_1_skim@#@#DESIGNS@#Areas@#Histograms@#Pie charts@#Bandwidths@#  Compare@#Desire lines@#Reports@#Queries@#
+
+[Views]
+  nViews=7
+  view0_Name=CCT
+  view0_Number=1
+  view0_Matrix(axisSegment)(0)=5.921441393563121e-06,0.000000000000000,0.1452669514155217,0.000000000000000,6.352586320590006e-06,0.04214621533286166,0.000000000000000,0.000000000000000,1.000000000000000,
+  view0_Matrix(imageSegment)(0)=877.5592402031316,0.000000000000000,160.7203798984342,0.000000000000000,-818.0000000000000,818.0000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view0_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,183.2656250000000,0.000000000000000,1.000000000000000,846.9179687500000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view0_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view0_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-94157.32655963046,0.000000000000000,1.000000000000000,-49537.57665514017,0.000000000000000,0.000000000000000,0.007214650343795949,
+  view1_Name=CCT_Report_CBD
+  view1_Number=2
+  view1_Matrix(axisSegment)(0)=5.921441393563121e-06,0.000000000000000,0.1452669514155217,0.000000000000000,6.352586320590006e-06,0.04214621533286166,0.000000000000000,0.000000000000000,1.000000000000000,
+  view1_Matrix(imageSegment)(0)=877.5592402031316,0.000000000000000,160.7203798984342,0.000000000000000,-818.0000000000000,818.0000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view1_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,591.5156250000000,0.000000000000000,1.000000000000000,68.15234375000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view1_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view1_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-93114.51050617390,0.000000000000000,1.000000000000000,-47676.59543472354,0.000000000000000,0.000000000000000,0.02752170693891887,
+  view2_Name=Centroid_2706
+  view2_Number=22
+  view2_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
+  view2_Matrix(imageSegment)(0)=786.9301348213967,0.000000000000000,26.53493258930160,0.000000000000000,-824.0000000000000,824.0000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view2_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,-2155.437500000000,0.000000000000000,1.000000000000000,319.2617187500000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view2_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view2_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-81284.86000891632,0.000000000000000,1.000000000000000,-57545.12485755835,0.000000000000000,0.000000000000000,0.01766323199654978,
+  view3_Name=Centroid_317_318
+  view3_Number=23
+  view3_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
+  view3_Matrix(imageSegment)(0)=786.9301348213967,0.000000000000000,26.53493258930160,0.000000000000000,-824.0000000000000,824.0000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view3_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,-8297.242187500000,0.000000000000000,1.000000000000000,3656.324218750000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view3_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view3_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-82010.20250361736,0.000000000000000,1.000000000000000,-58026.68215620978,0.000000000000000,0.000000000000000,0.004630310288503547,
+  view4_Name=City - 15km radius
+  view4_Number=15
+  view4_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
+  view4_Matrix(imageSegment)(0)=775.0000000000000,0.000000000000000,0.000000000000000,0.000000000000000,-811.5078731162557,817.7539365581279,0.000000000000000,0.000000000000000,1.000000000000000,
+  view4_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,8452.570312500000,0.000000000000000,1.000000000000000,-9191.625000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view4_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view4_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-86121.23706341910,0.000000000000000,1.000000000000000,-32121.56157623289,0.000000000000000,0.000000000000000,0.1713233049944093,
+  view5_Name=City - 15km radius west
+  view5_Number=16
+  view5_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
+  view5_Matrix(imageSegment)(0)=775.0000000000000,0.000000000000000,0.000000000000000,0.000000000000000,-811.5078731162557,817.7539365581279,0.000000000000000,0.000000000000000,1.000000000000000,
+  view5_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,15389.04687500000,0.000000000000000,1.000000000000000,-9262.046875000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view5_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view5_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-86121.23706341910,0.000000000000000,1.000000000000000,-32121.56157623289,0.000000000000000,0.000000000000000,0.1713233049944093,
+  view6_Name=City - Sydney
+  view6_Number=4
+  view6_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
+  view6_Matrix(imageSegment)(0)=741.0000000000000,0.000000000000000,0.000000000000000,0.000000000000000,-775.9062373924457,799.9531186962229,0.000000000000000,0.000000000000000,1.000000000000000,
+  view6_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,13895.56640625000,0.000000000000000,1.000000000000000,-374.9804687500000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view6_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
+  view6_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-55466.15013713607,0.000000000000000,1.000000000000000,-30138.65234372440,0.000000000000000,0.000000000000000,0.3416614101777593,
+
+[Jobs]
+
+[Jobs.Buttons]
+  ToolbarVisible=0
+  JobButtonsCount=0
+
+[Project]
+  Name=BedrockTestProject
+  OrderNr=0
+  Level=0
+  Categories=Test Variants|Reference variants
+
+[Predefined Loads]
+  PreDefines=3
+  Predefined1=CCT_Report_Opt2xBase$All Links$4$4$2$sum(frequency)$sum(frequency)$sum(LOAD)$sum(LOAD)$sum(LOAD)$sum(load)$sum(load)$sum(load)$1$1001..1003,50$12..14$1$13$1$1$1001..1003,50$12..14$1$13$1$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$0$4$8$12$16$20$24$28$32$36$40$44$48$52$56$60$12632256$4227327$16711680$3800042$1965556$131070$124670$118270$111870$105470$99070$3369214$6639358$9909502$13179646$16449790$0$1$0.0010$0$1$2$0$2$Shared$Current Variant$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$Shared$Current Variant$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$0$0$$$0$0$0$0.00000$0$All Transit lines$2$sum(LOAD)$$0$$$$2$sum(LOAD)$sum(LOAD)$$$$0$0$0$0$0$0$0$1$1$1$0$$0$$$$$$$$$$$$$$$$$0$40$0$$$$$$$$$$$$$$$$$0$Band Widths$0$Arial;0;10;$0$0$
+  Predefined2=speed$All Links$1$1$2$length/avg(calcspeed)*60$length/avg(calcspeed)*60$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$1$100$12$1$13$1$0:All$0:All$0:All$0:All$0:All$0:All$$0$100$200$300$400$500$600$700$800$900$1000$1100$1200$1300$1400$1500$16776960$16711680$8421504$16711935$32768$65280$12632256$128$8388608$32896$8388736$255$8421376$16777215$65535$0$0$1$10.0000$0$0$0$0$0$$$$$$$0$0$$$1$0$0:All$0.00000$0$All Transit lines$2$sum(load)$$0$$$$2$sum(load)$sum(load)$$$$0$0$0$0$0$0$0$1$0$1$0$$0$$$$$$$$$$$$$$$$$0$100$0$$$$$$$$$$$$$$$$$1$Bandwidths$0$Arial;0;10;$0$0$
+  Predefined3=compare load$All Links$4$1$2$sum(load)$length/avg(calcspeed)*60$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$1$1001$12$1$137$1$1$1001$12$1$137$1$REF_Dominato$0$100$200$300$400$500$600$700$800$900$1000$1100$1200$1300$1400$1500$12632256$16711680$255$16711935$32768$65280$12632256$128$8388608$32896$8388736$255$8421376$16777215$65535$0$0$1$10.0000$0$0$0$0$0$$$$Shared$Value 1$Value 2$0$0$$$1$0$0$0.00000$0$All Transit lines$2$sum(load)$$0$$$$2$sum(load)$sum(load)$$$$0$0$0$0$0$0$0$1$0$1$0$$0$$$$$$$$$$$$$$$$$0$100$0$$$$$$$$$$$$$$$$$1$Bandwidths$0$Arial;0;10;$0$0$
+
+[Predefined Bars]
+
+[Predefined Pies]
+
+[Predefined Queries]
+
+[Predefined Reports]
+  PreDefines=1
+  Predefined1=CoordinatesofNode@102@nodenr@@nodenr@Current selection@1$nodenr@nodenr@0;0;0;0;0;0;<none>;<none>;<none>@Sum@Integer@11@<Current Variant>@<Current Matrix Cube>@nodenr$x@x@0;0;0;0;0;0;<none>;<none>;<none>@None@String@17@<Current Variant>@<Current Matrix Cube>@x
+
+[Predefined Areas]
+  PreDefines=0
+
+[Predefined Flows]
+
+[Defaults]
+  AutoScale=0
+  Scale=0.0010000000
+  DistanceFormula=2
+  Projection=2
+  Spheroid=12
+  UTMZone=56
+  NameODN=1
+  DataSerie=1
+  SelectionObject=101
+  BaseColors(0)=16776960,16711680,8421504,16711935,32768,65280,12632256,128,8388608,
+  BaseColors(1)=32896,8388736,255,8421376,16777215,65535,0,
+  SelectionColor=255
+  SuperColor=8421504
+  SuperWidth=1
+  ConnectorBranch=1
+  Decimals=6
+  FullNames=1
+  ShowProdAttr=0
+  ShowSocioData=0
+  ShowStatic=1
+  ShowDynamic=0
+  NearestObjects=20
+  PathFindingDepth=10
+  EditJunctions=0
+  JobPriority=4
+  Zenith=1
+  Crypted=0
+  ForceLevel2Index=0
+  AutoLogging=0
+  MessageLevel=1
+  CollectionActivated=0
+  AuditCollectJobs=1
+  AuditCollectNetworkOps=1
+  AuditArchive=1
+  AuditMaxSize=67108864
+  CryptKey=0,0,0,0,0,0,0,0,0,0
+  FirstNode=5000
+  NodeInterval=1
+  AutoDeleteLinks=1
+  AutoDeleteTurns=1
+  AutoDeleteStops=1
+  HideUnconnected=1
+  Snap=0.0000000
+  OneWay=0
+  ContinuousAdd=0
+  RecalcLength=1
+  AutoDeleteNodes=1
+  AutoDeleteCounts=0
+  AutoDeleteTransitlines=0
+  AutoDeleteControls=0
+  AutoDeleteRoutes=0
+  CountRetour=0
+  AutoDeleteScreenlines=0
+  ScreenlineRetour=0
+  StopStopType=1
+  StopDwelltime=0.0000000
+  TransitlineRetour=0
+  TransitlineRecalcTravelTime=1
+  TimeTables=0
+  TimeTableOffset=0
+  TimeTableMapping=
+  JunctionMode=50
+  JunctionTime=11
+
+[Country]
+  DriveLeft=1
+
+[Format]
+  Matrix=omnitrans
+
+[Legend]
+  Show=1
+  Alignment=4
+  Height=805
+  Width=104
+  Font.Name=Arial
+  Font.Color=0
+  Font.Pitch=Default
+  Font.Size=8
+  Font.Style=
+  Symbols=1
+  ModesPeriods=0
+  Types=0
+  GroupTypes=0
+  TypeNrs=0
+  Loads=1
+  ShowLoadValue=0
+  Pies=0
+  Bars=0
+  Areas=0
+  Flows=0
+  Scale=1
+  Formulas=0
+  Units=0
+  Paths=0
+  Headers=Legend$Symbols$Modes$Times$Scale
+  PathHeaders=Paths$Links$Transit Lines$Labels$Access$Egress$Transfer
+
+[Maps]
+  PosX=0.000000000000000
+  PosY=0.000000000000000
+  MaxX=200.0000000000000
+  NMaps=0
+
+[PrintProperties]
+  Last_Name=LastSetting
+  Last_TitleValue=Base year - XCity Run14 - Option 2
+  Last_SubTitleValue=
+  Last_Description=
+  Last_DescriptionValue=
+  Last_File=
+  Last_FileValue=
+  Last_Company=
+  Last_DrawingNoValue=1
+  Last_FontValue.Name=Courier New
+  Last_FontValue.Color=-16777208
+  Last_FontValue.Pitch=Default
+  Last_FontValue.Size=8
+  Last_FontValue.Style=
+  Last_WidthValue=60
+  Last_HeightValue=30
+  Last_AlignValue=1
+  Last_ScaleOption=gcpSizeWindowToPage
+  Last_ScaleValue=1074360.72
+  Last_PrinterPortrait=0
+  Last_PrinterLandscape=1
+  Last_Border=1
+  Last_Legend=1
+  Last_LeftMarginValue=15
+  Last_RightMarginValue=22
+  Last_TopMarginValue=31
+  Last_BottomMarginValue=12
+
+[Predefine Types]
+  Types=Bars$Flows$Labels for Areas$Labels for Controls$Labels for Counts$Labels for Links$Labels for Nodes$Labels for Routes$Labels for Screenlines$Labels for Stops$Labels for Transit$Labels for Turns$Labels for Zones$Loads$Object Colors$Pies$Queries$Reports
+
+[Predefined Labels for Links]
+  PreDefines=11
+  Predefined1=Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@linknr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@linktag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@linknr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@linknr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@linknr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined8=Road Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@roadnumber@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined9=Link Type Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@typenr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined10=Screenline Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined11=Transitline Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[Predefined Labels for Zones]
+  PreDefines=7
+  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@centroidnr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@centroidtag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@centroidnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@centroidnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@centroidnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[Predefined Labels for Areas]
+  PreDefines=7
+  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@areanr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@areatag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@areanr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@areanr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@areanr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[Predefined Labels for Nodes]
+  PreDefines=7
+  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@nodenr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@nodetag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@nodenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@nodenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@nodenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[Predefined Labels for Turns]
+  PreDefines=7
+  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@turnnr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@turntag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@turnnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@turnnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@turnnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[Predefined Labels for Stops]
+  PreDefines=7
+  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@stopnr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@stoptag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@stopnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@stopnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@stopnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[Predefined Labels for Counts]
+  PreDefines=7
+  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@countnr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@counttag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@countnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@countnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@countnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[Predefined Labels for Transit]
+  PreDefines=7
+  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@transittag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[Predefined Labels for Screenlines]
+  PreDefines=7
+  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@screentag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@0@0@0@0@0@0@0@0:All@0:All@0:All
+
+[ExtendedParameter]
+  Prefix(0)=P_
+  Prefix(1)=M_
+  Prefix(2)=T_
+  Prefix(3)=U_
+  Prefix(4)=R_
+  Prefix(5)=
+  Prefix(6)=PR_
+  Prefix(7)=A_
+  Prefix(8)=C_
+  Suffix(0)=
+  Suffix(1)=
+  Suffix(2)=
+  Suffix(3)=
+  Suffix(4)=
+  Suffix(5)=
+  Suffix(6)=
+  Suffix(7)=
+  Suffix(8)=

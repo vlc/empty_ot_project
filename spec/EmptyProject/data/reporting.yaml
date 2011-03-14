@@ -1,0 +1,69 @@
+---
+freeway_link_type_range: [160, 179]
+major_road_link_type_range: [8, 159]
+
+#melb:
+#freeway_link_type_range: [41, 60]
+#major_road_link_type_range: [8, 40]
+
+
+# Function is: params[0]+(params[1]/calcspeed)+(params[2]*calcspeed*calcspeed))*load*length/100
+operating_costs:
+  Freeway:
+    Car: [20.07, 42.36, 0.000151]
+    CommVeh: [20.85, 121.20, 0.000303]
+  Other:
+    Car: [22.19, 59.61, 0.000211]
+    CommVeh: [22.67, 139.50, 0.000407]
+
+accident_factors:
+  Fatal:
+    Freeway: 0.004294
+    Other_Div: 0.009156
+    Undiv_Major: 0.01254
+    Other: 0.01652
+  Injury:
+    Freeway: 0.095706
+    Other_Div: 0.300844
+    Undiv_Major: 0.38246
+    Other: 0.53348
+
+accident_costs:
+  Fatal:
+    Freeway: 243000
+    Other_Div: 173000
+    Undiv_Major: 153000
+    Other: 131500
+  Injury:
+    Freeway: 243000
+    Other_Div: 173000
+    Undiv_Major: 153000
+    Other: 131500
+
+# Function is: mode_factor * (params[0]*(params[1]*calcspeed*calcspeed+params[2]*calcspeed+params[3])/100*load*length)
+fuel_consumption:
+  curve: [0.85, 0.0018, -0.3317, 24.204]
+  mode_factors:
+    Car: 1.0
+    CommVeh: 2.75
+
+# Function is: factor*fuel[mode]/1000000
+emission_factors:
+  Car:
+    NOx: 11.100
+    NMVOC: 6.750
+    SOx: 0.340
+    CO2: 2211.410
+    CH4: 0.880
+    N2O: 0.180
+    CO: 92.680
+    Particulate: 0.050
+  CommVeh:
+    NOx: 15.380
+    NMVOC: 9.650
+    SOx: 1.720
+    CO2: 2378.220
+    CH4: 0.530
+    N2O: 0.090
+    CO: 93.180
+    Particulate: 0.380

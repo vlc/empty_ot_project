@@ -1,0 +1,78 @@
+Variable,Code,Description
+Status,Running,Model is running
+Status,Planned,Model run is planned
+Status,Queued,Model run is queued and will begin when another model finishes
+Status,Latest,No known issues with model run
+Status,Superceded,Model run has been superceded
+Status,To be superceded,There are known problems with this model run.  It will be superceded.
+Metro,MC1,Metro CBD1 - Central to Rozelle as per CBD Metro Business Case. Note: White Bay not open 2021 - does open by 2031.
+Metro,MC2,Metro CBD2 - extended to Camperdown - all else as per MC1
+Metro,MCW1,Metro West 1 - West + CBD - Westmead – Rozelle as per West Metro and CBD Metro Business Cases
+Metro,MCW2,Metro West 2 - Inner West + CBD - Strathfield – Rozelle as per first stage towards full West Metro and CBD Metros
+Metro,MCN1,Metro NW 1 - NW + CBD - Central – Epping via Gladesville; Monash Park; Field of Mars; Macquarie Park; M2 Parkway; Epping
+Metro,MCN2,Metro NW 2 - NW + CBD + Inner West - Strathfield – Epping via Gladesville; Monash Park; Field of Mars; Macquarie Park; M2 Parkway; Epping
+Metro,MCWN1,Metro Full 1 - Metro 1 (MW1 + MNW1)
+Metro,MCWN2,Metro Full 2 - Metro 1 + no Camellia Station
+Metro,MCWN3,Metro Full 3 - Metro 1 + PnR at Granville; southern alignment - no Camellia
+Metro,MCWN4,Metro Full 4 - Metro 1 but terminates at M2 Pkwy
+Year,6,2006
+Year,16,2016
+Year,21,2021
+Year,26,2026
+Year,31,2031
+Year,41,2041
+Land Use,ABS06,Based on current ABS estimates of population and employment
+Land Use,L1,Preliminary forecasts based on previous SGS work 
+Land Use,LU1,Reference case (DoP totals) - not necessarily modelled
+Land Use,LU2,Economic Base - updated metroplanning - no metro - 2006
+Land Use,LU3a,LU2 with redistribution (CBD Metro)
+Land Use,LU3b,LU2 base with redistribution / network expansion (Metro 1)
+Land Use,LU4,LU2 base with redistribution and additional growth (Metro 1)
+Road,6,Current road network
+Road,R1,Current RTA program (2008 v.5) - with M4 East
+Road,R2,Current RTA program (2008 v.5) - no M4 East 
+Rail,RailC,2006 rail plan (full) - 2009 timetable (full sectorisation post ECRL)
+Rail,RailC+,Do-nothing 2009 timetable network - clearways + increased services west of Parramatta terminating at Sydney Terminal and/or Cumberland Line
+Rail,RailD,2040 Strategic Rail Plan with single deck rolling stock operating between Liverpool and the North Shore Line + 8 Western Fast services to Sydney Terminal
+Rail,RailE,2040 Strategic Rail Plan with single deck rolling stock operating between Liverpool and the North Shore Line + 12 Western Fast services to Wynyard via CBD Relief line
+Rail,R2a,2040 strategic plan with fast west services (full sectorisation + R2a) - with single deck rolling stock operating between Liverpool and the North Shore line + 18 Western Fast services to Sydney Terminal
+Rail,R2L,2040 strategic plan with limited fast west services (reduced version of R2a)
+Bus,B1,2006 bus network - organic growth to meet demand
+Bus,BC,CBD Metro integrated bus network
+Bus,BCW,Full integration West Metro bus network
+Bus,BCN,Full integration M2 corridor. All services terminate at Macq; reallocation for enhanced freq & coverage
+Bus,BCWN,Full integration on NW & W Metro corridors - B3 + B4
+Fares,Fa1,Integrated bus and rail fares
+Fares,Fa2,Current CityRail structure - integrated flagfalls with CityRail
+Frequency,22/12,2021: 22 peak - 12 off-peak
+Frequency,24/12,2031: 24 peak - 12 off-peak
+Frequency,26/12,2041: 26 peak - 12 off-peak
+Frequency,30/12,30 peak - 12 off-peak
+Car,C1,business as usual
+Car,C2a,increased cost to centres from parking + cordon charging etc
+Car,C2b,increased cost to Metro station centres (car trips)
+Car,C3,increased petrol price - 20% higher than C1
+Car,C4,car travel times - 20% higher than C1
+Car,C5,Combination of Car 2a + 2b + 3 + 4
+Period,AM1,AM Peak 1hr (08h15 to 09h15)
+Period,AM2,AM Peak 2hr (07h15 to 09h15)
+Period,PM1,PM Peak 1hr (16h45 to 17h45)
+Period,PM2,PM Peak 2hr (16h00 to 18h00)
+Period,OP,Off Peak (18h00 to 07h15 + 1)
+White Bay,WBon,White Bay station open
+White Bay,WBoff,White Bay station closed
+Model,Full,Full model run with relaxed distribution on first iteration and variable mode choice on subsequent iterations
+Model,Assign,Trip assignment (route choice) only
+Demographic profile,ABS,Household structure as ABS06
+Demographic profile,TDC,TDC forecasts of population by age and gender (by TZ)
+Occupational profile,Sydney SD,Based on current occupation / industry cross-tabs for the Sydney SD
+Occupational profile,LGA,Based on current occupation / industry cross-tabs for each LGA
+Period allocation,TIM,Trips-in-motion all Sydney SD
+Period allocation,CBD/Other,AM on arrival; PM on departure; for CBD/other in Sydney SD
+Stop specific car access penalties,ca0,Base assumptions ($10 CBD; $3.90 outside)
+Stop specific car access penalties,ca1,University and Rozelle $10
+Stop specific car access penalties,ca2,Camperdown and University and Rozelle $6
+Stop specific interchange penalties,ssi0,Base assumptions (7 min rail)
+Stop specific interchange penalties,ssi1,Reduced penalties at disaggregated stations
+Global metro penalties,mp0,Base assumptions (same as rail)
+Global metro penalties,mp1,Reduced penalties for metro (1 min on access/egress/interchange)

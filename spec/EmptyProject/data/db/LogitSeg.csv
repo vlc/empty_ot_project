@@ -1,0 +1,8 @@
+000007,000000,Struct,recno:Integer,SegmentID:Integer,Rate:String,ControlTotal:String
+1,1,PersperHH,Households
+2,2,CarsperHH,Households
+3,3,BLWkperHH,Households
+4,4,WhWkperHH,Households
+5,5,D0to17perHH,Households
+6,6,D18to64perHH,Households
+7,7,D65PlusperHH,Households

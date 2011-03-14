@@ -1,0 +1,36 @@
+
+[UD0]
+  Key=MyParam
+  Value=10
+  Description=Wicked parameter!!!
+  Group=MyGroup
+
+[UD1]
+  Key=MyParam2
+  Value=true
+  Description=Another Wicked parameter!!!
+  Group=MyGroup
+
+[UD2]
+  Key=MyParam3
+  Value={10=>15}
+  Description=Yet Another Wicked parameter!!!
+  Group=MyGroup2
+
+[UD3]
+  Key=MyParam4
+  Value=80
+  Description=Yet Another Wicked parameter!!!
+  Group=MyGroup2
+
+[UD4]
+  Key=MyParam5
+  Value=80
+  Description=Yet Another Wicked parameter!!!
+  Group=MyGroup2
+
+[UD5]
+  Key=DwellTimeByMode
+  Value={"Bus"=>0.33, "CityRail"=>0.67, "LightRail"=>0.3, "Metro"=>0.67, "Monorail"=>0.3, "ManlyJetCat"=>1.5, "InnerHarbourFerry1"=>1.5, "ManlyFerry"=>1.5, "InnerHarbourFerry2"=>1.5}
+  Description=Default dwell times by mode; used in import / export, and in correcting dwell times which are set to zero
+  Group=Network

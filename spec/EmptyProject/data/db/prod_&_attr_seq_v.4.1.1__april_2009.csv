@@ -1,0 +1,269 @@
+000268,000000,Struct,recno:Integer,pa_id:Integer,purpose:String,demovar:String,prod_or_attr:String,coeff:Float
+1,0,HBW Bl,s_2_car_hh,prod,0.0274
+2,1,HBW Bl,s_3plus_car_hh,prod,0.0504
+3,2,HBW Bl,s_1_bl_wk_hh,prod,1.4401
+4,3,HBW Bl,s_2_bl_wk_hh,prod,2.7981
+5,4,HBW Bl,s_3plus_bl_wk_hh,prod,4.2038
+6,5,HBW Bl,households,attr,0.0830
+7,6,HBW Bl,emp_blue,attr,0.8675
+8,7,HBW Bl,emp_cbd_blue,attr,-0.3223
+9,8,HBW Wh,s_3plus_car_hh,prod,0.1446
+10,9,HBW Wh,s_1_wh_wk_hh,prod,1.1809
+11,10,HBW Wh,s_2_wh_wk_hh,prod,2.1699
+12,11,HBW Wh,s_3plus_wh_wk_hh,prod,3.4356
+13,12,HBW Wh,s_0_depd_0to17_hh,prod,0.1186
+14,13,HBW Wh,emp_white,attr,1.2363
+15,14,HBW Wh,emp_cbd_white,attr,0.0247
+16,15,HBE PPr,households,prod,0.003
+17,16,HBE PPr,s_4_person_hh,prod,0.034
+18,17,HBE PPr,s_5_person_hh,prod,-0.1404
+19,18,HBE PPr,s_6plus_person_hh,prod,-0.0326
+20,19,HBE PPr,s_1_depd_0to17_hh,prod,0.4139
+21,20,HBE PPr,s_2_depd_0to17_hh,prod,1.4864
+22,21,HBE PPr,s_3plus_depd_0to17_hh,prod,3.1081
+23,22,HBE PPr,enrol_ppr,attr,1.2691
+24,23,HBE Sec,s_4_person_hh,prod,0.2812
+25,24,HBE Sec,s_5_person_hh,prod,0.6545
+26,25,HBE Sec,s_6plus_person_hh,prod,1.038
+27,26,HBE Sec,s_1_depd_0to17_hh,prod,0.3171
+28,27,HBE Sec,s_2_depd_0to17_hh,prod,0.5285
+29,28,HBE Sec,s_3plus_depd_0to17_hh,prod,0.7097
+30,29,HBE Sec,enrol_sec,attr,1.0753
+31,30,HBE Ter,s_0_car_hh,prod,-0.017
+32,31,HBE Ter,s_1_car_hh,prod,-0.0779
+33,32,HBE Ter,s_2_car_hh,prod,-0.1067
+34,33,HBE Ter,s_1_bl_wk_hh,prod,0.0547
+35,34,HBE Ter,s_2_bl_wk_hh,prod,0.1105
+36,35,HBE Ter,s_3plus_bl_wk_hh,prod,0.1789
+37,36,HBE Ter,s_1_wh_wk_hh,prod,0.0613
+38,37,HBE Ter,s_2_wh_wk_hh,prod,0.1384
+39,38,HBE Ter,s_3plus_wh_wk_hh,prod,0.3255
+40,39,HBE Ter,s_0_depd_0to17_hh,prod,0.0560
+41,40,HBE Ter,s_1_depd_18to64_hh,prod,0.1367
+42,41,HBE Ter,s_2_depd_18to64_hh,prod,0.3976
+43,42,HBE Ter,s_3plus_depd_18to64_hh,prod,0.9204
+44,43,HBE Ter,s_2plus_depd_65plus_hh,prod,0.0173
+45,44,HBE Ter,enrol_ter,attr,0.4953
+46,45,HBE Ter,enrol_ter_uq,attr,0.5944
+47,46,HBS,households,prod,1.1300
+48,47,HBS,s_0_car_hh,prod,-0.4052
+49,48,HBS,s_1_car_hh,prod,-0.3053
+50,49,HBS,s_2_car_hh,prod,-0.0039
+51,50,HBS,s_1_bl_wk_hh,prod,0.2500
+52,51,HBS,s_2_bl_wk_hh,prod,0.4700
+53,52,HBS,s_3plus_bl_wk_hh,prod,0.7100
+54,53,HBS,s_1_wh_wk_hh,prod,0.2909
+55,54,HBS,s_2_wh_wk_hh,prod,0.5698
+56,55,HBS,s_3plus_wh_wk_hh,prod,1.4263
+57,56,HBS,s_1_depd_0to17_hh,prod,0.2400
+58,57,HBS,s_2_depd_0to17_hh,prod,0.3673
+59,58,HBS,s_3plus_depd_0to17_hh,prod,0.6642
+60,59,HBS,s_1_depd_18to64_hh,prod,0.5675
+61,60,HBS,s_2_depd_18to64_hh,prod,1.2239
+62,61,HBS,s_3plus_depd_18to64_hh,prod,1.5600
+63,62,HBS,s_1_depd_65plus_hh,prod,0.9700
+64,63,HBS,s_2plus_depd_65plus_hh,prod,1.7600
+65,64,HBS,emp_wh,attr,0.5800
+66,65,HBS,emp_ret,attr,7.9300
+67,66,HBS,emp_recps,attr,2.0000
+68,67,HBS,emp_cbd_wh,attr,-0.1781
+69,68,HBS,emp_cbd_ret,attr,-3.8000
+70,69,HBS,emp_cbd_recps,attr,-1.2412
+71,70,HBR,households,prod,0.3756
+72,71,HBR,s_0_car_hh,prod,-0.3535
+73,72,HBR,s_1_car_hh,prod,-0.2052
+74,73,HBR,s_2_car_hh,prod,-0.0344
+75,74,HBR,s_1_bl_wk_hh,prod,0.0316
+76,75,HBR,s_2_bl_wk_hh,prod,0.1472
+77,76,HBR,s_3plus_bl_wk_hh,prod,0.6458
+78,77,HBR,s_1_wh_wk_hh,prod,0.2292
+79,78,HBR,s_2_wh_wk_hh,prod,0.3700
+80,79,HBR,s_3plus_wh_wk_hh,prod,1.0184
+81,80,HBR,s_1_depd_0to17_hh,prod,0.3034
+82,81,HBR,s_2_depd_0to17_hh,prod,0.6455
+83,82,HBR,s_3plus_depd_0to17_hh,prod,0.9031
+84,83,HBR,s_1_depd_18to64_hh,prod,0.3731
+85,84,HBR,s_2_depd_18to64_hh,prod,0.6492
+86,85,HBR,s_3plus_depd_18to64_hh,prod,0.9100
+87,86,HBR,s_1_depd_65plus_hh,prod,0.6240
+88,87,HBR,s_2plus_depd_65plus_hh,prod,1.0350
+89,88,HBR,households,attr,0.6147
+90,89,HBR,enrol_sec,attr,0.2057
+91,90,HBR,enrol_ter,attr,0.0383
+92,91,HBR,enrol_ter_uq,attr,0.0460
+93,92,HBR,emp_ret,attr,0.3072
+94,93,HBR,emp_cserv,attr,0.3805
+95,94,HBR,emp_recps,attr,0.9484
+96,95,HBR,emp_cbd_ret,attr,-0.1291
+97,96,HBR,emp_cbd_recps,attr,-0.3126
+98,97,HBR,spec_rec_local,attr,0.3
+99,98,HBO,households,prod,6.0408
+100,99,HBO,s_1_person_hh,prod,-0.9219
+101,100,HBO,s_2_person_hh,prod,-0.6983
+102,101,HBO,s_3_person_hh,prod,-0.3888
+103,102,HBO,s_4_person_hh,prod,-0.1069
+104,103,HBO,s_5_person_hh,prod,0.0798
+105,104,HBO,s_0_car_hh,prod,-0.2475
+106,105,HBO,s_1_car_hh,prod,0.1426
+107,106,HBO,s_2_car_hh,prod,0.1241
+108,107,HBO,s_0_bl_wk_hh,prod,0.1737
+109,108,HBO,s_0_depd_0to17_hh,prod,-5.0447
+110,109,HBO,s_1_depd_0to17_hh,prod,-3.6353
+111,110,HBO,s_2_depd_0to17_hh,prod,-2.0958
+112,111,HBO,s_0_depd_18to64_hh,prod,-0.1268
+113,112,HBO,households,attr,0.6885
+114,113,HBO,enrol_ppr,attr,3.3000
+115,114,HBO,enrol_sec,attr,0.3627
+116,115,HBO,enrol_ter,attr,0.1071
+117,116,HBO,enrol_ter_uq,attr,0.1285
+118,117,HBO,emp_ret,attr,1.0100
+119,118,HBO,emp_recps,attr,1.0297
+120,119,HBO,emp_cbd_ret,attr,0.3533
+121,120,HBO,emp_cbd_recps,attr,0.3603
+122,121,WBW,households,both,0.1104
+123,122,WBW,enrol_sec,both,0.1849
+124,123,WBW,enrol_ter,both,0.0816
+125,124,WBW,enrol_ter_uq,both,0.0979
+126,125,WBW,emp_cons,both,1.0297
+127,126,WBW,emp_wh,both,1.0297
+128,127,WBW,emp_ret,both,1.0297
+129,128,WBW,emp_finbus,both,0.4400
+130,129,WBW,emp_egw,both,1.2326
+131,130,WBW,emp_pubad,both,1.2326
+132,131,WBW,emp_cserv,both,0.2659
+133,132,WBW,emp_recps,both,0.4493
+134,133,WBW,emp_cbd_wh,both,0.0218
+135,134,WBW,emp_cbd_ret,both,0.0218
+136,135,WBW,emp_cbd_finbus,both,0.0084
+137,136,WBW,emp_cbd_pubad,both,0.0263
+138,137,WBW,emp_cbd_recps,both,0.0095
+139,138,WBS,emp_manuf,prod,0.2130
+140,139,WBS,emp_egw,prod,0.2130
+141,140,WBS,emp_cons,prod,0.4251
+142,141,WBS,emp_trst,prod,0.2130
+143,142,WBS,emp_cserv,prod,0.2130
+144,143,WBS,emp_commc,prod,0.4251
+145,144,WBS,emp_wh,prod,0.4962
+146,145,WBS,emp_ret,prod,0.4962
+147,146,WBS,emp_finbus,prod,1.2490
+148,147,WBS,emp_pubad,prod,1.9110
+149,148,WBS,emp_recps,prod,0.4251
+150,149,WBS,emp_cbd_wh,prod,-0.1195
+151,150,WBS,emp_cbd_ret,prod,-0.1195
+152,151,WBS,emp_cbd_finbus,prod,-0.3006
+153,152,WBS,emp_cbd_pubad,prod,-0.4601
+154,153,WBS,emp_cbd_recps,prod,-0.1024
+155,154,WBS,emp_wh,attr,0.1800
+156,155,WBS,emp_ret,attr,0.9300
+157,156,WBS,emp_finbus,attr,0.3131
+158,157,WBS,emp_pubad,attr,1.0700
+159,158,WBS,emp_recps,attr,0.5000
+160,159,WBS,emp_cbd_wh,attr,-0.0132
+161,160,WBS,emp_cbd_ret,attr,-0.1782
+162,161,WBS,emp_cbd_finbus,attr,-0.0721
+163,162,WBS,emp_cbd_pubad,attr,-0.4952
+164,163,WBS,emp_cbd_recps,attr,-0.7129
+165,164,WBO,emp_total,prod,0.3400
+166,165,WBO,households,attr,0.0823
+167,166,WBO,enrol_ppr,attr,0.1464
+168,167,WBO,enrol_sec,attr,0.0692
+169,168,WBO,enrol_ter,attr,0.0634
+170,169,WBO,enrol_ter_uq,attr,0.0761
+171,170,WBO,emp_recps,attr,0.3299
+172,171,WBO,emp_white,attr,0.1170
+173,172,SBS,emp_wh,both,0.2500
+174,173,SBS,emp_ret,both,2.1500
+175,174,SBS,emp_recps,both,1.3549
+176,175,SBS,emp_cbd_wh,both,-0.0411
+177,176,SBS,emp_cbd_ret,both,-1.5536
+178,177,SBS,emp_cbd_recps,both,-0.7982
+179,178,SBO,emp_wh,prod,0.3800
+180,179,SBO,emp_ret,prod,2.9400
+181,180,SBO,emp_recps,prod,2.0099
+182,181,SBO,emp_cbd_wh,prod,-0.0829
+183,182,SBO,emp_cbd_ret,prod,-2.1148
+184,183,SBO,emp_cbd_recps,prod,-1.4846
+185,184,SBO,households,attr,0.3126
+186,185,SBO,enrol_ppr,attr,0.1500
+187,186,SBO,enrol_sec,attr,0.1512
+188,187,SBO,enrol_ter,attr,0.1538
+189,188,SBO,enrol_ter_uq,attr,0.1846
+190,189,SBO,emp_wh,attr,0.0213
+191,190,SBO,emp_ret,attr,0.2500
+192,191,SBO,emp_recps,attr,2.0000
+193,192,SBO,emp_cbd_wh,attr,-0.0136
+194,193,SBO,emp_cbd_ret,attr,-0.1819
+195,194,SBO,emp_cbd_recps,attr,-1.5864
+196,195,ONHB,households,both,0.3506
+197,196,ONHB,enrol_ppr,both,0.6988
+198,197,ONHB,enrol_sec,both,0.2964
+199,198,ONHB,enrol_ter,both,0.0681
+200,199,ONHB,enrol_ter_uq,both,0.0817
+201,200,ONHB,emp_wh,both,0.3267
+202,201,ONHB,emp_ret,both,0.3267
+203,202,ONHB,emp_recps,both,0.9333
+204,203,ONHB,emp_cbd_wh,both,0.0556
+205,204,ONHB,emp_cbd_ret,both,0.0556
+206,205,ONHB,emp_cbd_recps,both,0.1589
+207,206,ABH,air_pax_bus,prod,0.25
+208,207,ABH,air_pax_local,prod,1.8500
+209,208,ABH,households,attr,1.0000
+210,209,ABW,air_pax_bus,prod,0.75
+211,210,ABW,emp_finbus,attr,1.0000
+212,211,ABW,emp_white,attr,0.5000
+213,212,ABW,emp_total,attr,0.1000
+214,213,ABW,emp_cbd_finbus,attr,1.0000
+215,214,ABW,emp_cbd_white,attr,0.5000
+216,215,ABV,air_pax_vis,prod,1.25
+217,216,ABV,vis_aust,attr,0.4000
+218,217,ABV,vis_os,attr,0.6000
+219,218,SpRBH,spec_rec_local,prod,2.0
+220,219,SpRBH,households,attr,1.0000
+221,220,SpRBV,spec_rec_vis,prod,2.0
+222,221,SpRBV,vis_os,attr,1.0
+223,222,SpRBV,vis_aust,attr,1.0
+224,223,ExtCar,externals,prod,0.500
+225,224,ExtCar,households,attr,1.000
+226,225,LTTRK,households,both,0.0400
+227,226,LTTRK,emp_agric,both,0.2700
+228,227,LTTRK,emp_ming,both,0.2140
+229,228,LTTRK,emp_manuf,both,0.2700
+230,229,LTTRK,emp_egw,both,0.2140
+231,230,LTTRK,emp_cons,both,0.2140
+232,231,LTTRK,emp_wh,both,0.2140
+233,232,LTTRK,emp_ret,both,0.2140
+234,233,LTTRK,emp_trst,both,0.2750
+235,234,LTTRK,emp_commc,both,0.0360
+236,235,LTTRK,emp_finbus,both,0.0360
+237,236,LTTRK,emp_pubad,both,0.0360
+238,237,LTTRK,emp_cserv,both,0.0360
+239,238,LTTRK,emp_recps,both,0.0360
+240,239,LTTRK,emp_noncl,both,0.2140
+241,240,LTTRK,seaport_cv,both,0.2000
+242,241,LTTRK,air_pax_local,both,-0.4000
+243,242,HVTRK,households,both,0.003
+244,243,HVTRK,emp_agric,both,0.300
+245,244,HVTRK,emp_ming,both,5.000
+246,245,HVTRK,emp_manuf,both,0.23
+247,246,HVTRK,emp_egw,both,0.1870
+248,247,HVTRK,emp_cons,both,0.1870
+249,248,HVTRK,emp_wh,both,0.1250
+250,249,HVTRK,emp_ret,both,0.0870
+251,250,HVTRK,emp_trst,both,0.3180
+252,251,HVTRK,emp_commc,both,0.019
+253,252,HVTRK,emp_finbus,both,0.019
+254,253,HVTRK,emp_pubad,both,0.019
+255,254,HVTRK,emp_cserv,both,0.019
+256,255,HVTRK,emp_recps,both,0.019
+257,256,HVTRK,emp_noncl,both,0.6020
+258,257,HVTRK,air_pax_local,both,-0.5000
+259,258,PORTTRK,seaport_cv,prod,1.6000
+260,259,PORTTRK,emp_manuf,attr,0.8000
+261,260,PORTTRK,emp_trst,attr,0.2000
+262,261,ExtTrk,externals,prod,0.500
+263,262,ExtTrk,emp_manuf,attr,0.800
+264,263,ExtTrk,emp_trst,attr,0.200
+265,264,SpRec,spec_rec_vis,prod,1.0000
+266,265,SpRec,spec_rec_local,prod,1.0000
+267,266,SpRec,spec_rec_vis,attr,1.0
+268,267,SpRec,spec_rec_local,attr,1.0

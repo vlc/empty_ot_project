@@ -1,0 +1,26 @@
+000025,000000,Struct,recno:Integer,SegGroup_ID:Integer,Code:String,Group_Name:String,Is_Comm_Veh:Boolean,Is_Visitor:Boolean,Is_Airport:Boolean,Is_External:Boolean,Is_Home_Based:Boolean,No_Parking_Charge:Boolean,High_Parking_Charge:Boolean,Is_Discretionary:Boolean,ChargeOnBothEnds:Boolean
+1,1,WB01,Home based Work Blue 0 and 1 cars,false,false,false,false,true,false,false,false,false
+2,2,WB2,Home based Work Blue 2 cars,false,false,false,false,true,false,false,false,false
+3,3,WB3,Home based Work Blue 3 cars,false,false,false,false,true,false,false,false,false
+4,4,WW01,Home based Work White 0 and 1 cars,false,false,false,false,true,false,false,false,false
+5,5,WW2,Home based Work White 2 cars,false,false,false,false,true,false,false,false,false
+6,6,WW3,Home based Work White 3 cars,false,false,false,false,true,false,false,false,false
+7,7,PPR,kb_nil,false,false,false,false,true,false,false,false,false
+8,8,SEC,kb_nil,false,false,false,false,true,false,false,false,false
+9,9,TER,kb_nil,false,false,false,false,true,false,false,false,false
+10,10,S01,kb_nil,false,false,false,false,true,false,true,false,false
+11,11,S23,kb_nil,false,false,false,false,true,false,true,false,false
+12,12,R01,kb_nil,false,false,false,false,true,false,false,false,false
+13,13,R23,kb_nil,false,false,false,false,true,false,false,false,false
+14,14,HBO,kb_nil,false,false,false,false,true,false,false,false,false
+15,15,WBW,kb_nil,false,false,false,false,false,false,false,true,false
+16,16,WBS,kb_nil,false,false,false,false,false,false,false,true,true
+17,17,WBO,kb_nil,false,false,false,false,false,false,false,false,false
+18,18,NHS,kb_nil,false,false,false,false,false,false,true,true,true
+19,19,ONHB,kb_nil,false,false,false,false,false,true,false,true,false
+20,20,Airport,kb_nil,false,false,true,false,true,false,false,false,false
+21,21,SpRec,kb_nil,false,false,false,false,false,false,false,false,false
+22,22,CV,kb_nil,true,false,false,false,false,false,false,false,false
+23,23,HVI,kb_nil,false,true,false,false,true,false,false,false,false
+24,24,NHVI,kb_nil,false,true,false,false,false,false,false,false,false
+25,25,EXT,kb_nil,false,false,false,true,false,false,false,false,false

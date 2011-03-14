@@ -1,0 +1,4 @@
+--- 
+city: sydney
+model_parameters: data/sydney.yaml
+assignment_parameters: data/assignment-sydney.yaml

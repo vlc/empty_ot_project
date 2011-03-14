@@ -1,0 +1,79 @@
+--- 
+pt_sub_mode_time_factors: 
+  CityRail: 0.6
+  Bus: 0.75
+  LightRail: 0.65
+  Metro: 0.6
+  Monorail: 0.6
+  ManlyJetCat: 0.5
+  InnerHarbourFerry1: 0.5
+  ManlyFerry: 0.5
+  InnerHarbourFerry2: 0.5
+pt_access_links: 
+  Car: 
+    link_type: 34
+    speed: 5
+must_find_access_candidates: 
+  Car: 
+  - mode: CityRail
+    num: 4
+  - mode: ManlyJetCat
+    num: 1
+  - mode: ManlyFerry
+    num: 1
+  - mode: InnerHarbourFerry1
+    num: 1
+  - mode: InnerHarbourFerry2
+    num: 1
+  - mode: Bus
+    num: 1
+  - mode: Metro
+    num: 1
+  Walk: 
+  - mode: CityRail
+    num: 2
+  - mode: Bus
+    num: 1
+pt_value_of_time: 800.0
+walk_specific_interchange_file: walkinterchange-sydney_metro_central4red4fix.wsi
+max_interchanges: 3
+pt_assignment_config: new
+candidate_radii: 
+  interchange: 
+    Walk: 
+      max: 2000
+      min: 1500
+  access: 
+    Car: 
+      max: 20000
+      min: 10000
+    Walk: 
+      max: 5000
+      min: 3000
+fares: 
+  system: distance_based
+  data: 
+  - Monorail: 360.0:0.0
+  - LightRail: 235.0:7.9   *** (should be negative if no 2
+  - CityRail: -155.0:5.3   *** (Factored by 0.85
+  - ManlyJetCat: 615.0:0.0   *** (Factored by 0.75 to take fares back to 1996
+  - ManlyFerry: 480.0:0.0
+  - InnerHarbourFerry1: 390.0:0.0
+  - InnerHarbourFerry2: 340.0:6.5
+  - Bus: 135.0:9.0
+  - Metro: -155.0:5.3
+num_candidates: 
+  interchange: 
+    Walk: 
+      max: 20
+      min: 0
+  access: 
+    Car: 
+      max: 30
+      min: 6
+    Walk: 
+      max: 50
+      min: 1
+pt_phi_factors: 
+  service_choice: -0.02
+  candidate_choice: -0.01

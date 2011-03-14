@@ -1,0 +1,38 @@
+--- 
+tolling_subclasses: 
+  CommVeh: 
+  - LCV
+  - HCV
+  Car: 
+  - AirportCar
+  - CompanyCar
+  - NonCompanyCar
+toll_blend_methods: 
+  allocation: WEIGHTEDAVERAGE
+  diversion: OPTIMAL
+toll_caps: 
+  CommVeh: [[NoName,-1],[M7, 500]]
+  Car: [[NoName,-1], [M7, 500]]
+toll_parameters: 
+  CompanyCar: 
+    PhiToll: -0.004179
+    PhiTime: -20.412
+    ProbabilityAdjustmentFactor: 1.03125
+  HCV: 
+    PhiToll: -0.004179
+    TollAdjustmentFactor: 0.6
+    PhiTime: -20.412
+    ProbabilityAdjustmentFactor: 1.0
+  NonCompanyCar: 
+    PhiToll: -0.00519
+    PhiTime: -15.786
+    ProbabilityAdjustmentFactor: 1.00781
+  AirportCar: 
+    PhiToll: -0.004179
+    PhiTime: -20.412
+    ProbabilityAdjustmentFactor: 0.9826
+  LCV: 
+    PhiToll: -0.004179
+    TollAdjustmentFactor: 0.6
+    PhiTime: -20.412
+    ProbabilityAdjustmentFactor: 1.0

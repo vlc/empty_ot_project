@@ -1,0 +1,1 @@
+%w[serie type].each { |t| OtQuery.execute("DELETE FROM '../#{t}.db'") }

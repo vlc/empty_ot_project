@@ -6,53 +6,25 @@
   nViews=7
   view0_Name=CCT
   view0_Number=1
-  view0_Matrix(axisSegment)(0)=5.921441393563121e-06,0.000000000000000,0.1452669514155217,0.000000000000000,6.352586320590006e-06,0.04214621533286166,0.000000000000000,0.000000000000000,1.000000000000000,
-  view0_Matrix(imageSegment)(0)=877.5592402031316,0.000000000000000,160.7203798984342,0.000000000000000,-818.0000000000000,818.0000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view0_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,183.2656250000000,0.000000000000000,1.000000000000000,846.9179687500000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view0_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view0_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-94157.32655963046,0.000000000000000,1.000000000000000,-49537.57665514017,0.000000000000000,0.000000000000000,0.007214650343795949,
+  view0_Position(0)=149.35193,0.44944289,149.36285,0.43919417,
   view1_Name=CCT_Report_CBD
   view1_Number=2
-  view1_Matrix(axisSegment)(0)=5.921441393563121e-06,0.000000000000000,0.1452669514155217,0.000000000000000,6.352586320590006e-06,0.04214621533286166,0.000000000000000,0.000000000000000,1.000000000000000,
-  view1_Matrix(imageSegment)(0)=877.5592402031316,0.000000000000000,160.7203798984342,0.000000000000000,-818.0000000000000,818.0000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view1_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,591.5156250000000,0.000000000000000,1.000000000000000,68.15234375000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view1_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view1_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-93114.51050617390,0.000000000000000,1.000000000000000,-47676.59543472354,0.000000000000000,0.000000000000000,0.02752170693891887,
+  view1_Position(0)=149.33444,0.46730831,149.37614,0.42821279,
   view2_Name=Centroid_2706
   view2_Number=22
-  view2_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
-  view2_Matrix(imageSegment)(0)=786.9301348213967,0.000000000000000,26.53493258930160,0.000000000000000,-824.0000000000000,824.0000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view2_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,-2155.437500000000,0.000000000000000,1.000000000000000,319.2617187500000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view2_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view2_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-81284.86000891632,0.000000000000000,1.000000000000000,-57545.12485755835,0.000000000000000,0.000000000000000,0.01766323199654978,
+  view2_Position(0)=149.25517,0.54193735,149.28043,0.51535702,
   view3_Name=Centroid_317_318
   view3_Number=23
-  view3_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
-  view3_Matrix(imageSegment)(0)=786.9301348213967,0.000000000000000,26.53493258930160,0.000000000000000,-824.0000000000000,824.0000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view3_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,-8297.242187500000,0.000000000000000,1.000000000000000,3656.324218750000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view3_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view3_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-82010.20250361736,0.000000000000000,1.000000000000000,-58026.68215620978,0.000000000000000,0.000000000000000,0.004630310288503547,
+  view3_Position(0)=149.31961,0.49751967,149.32622,0.49055102,
   view4_Name=City - 15km radius
   view4_Number=15
-  view4_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
-  view4_Matrix(imageSegment)(0)=775.0000000000000,0.000000000000000,0.000000000000000,0.000000000000000,-811.5078731162557,817.7539365581279,0.000000000000000,0.000000000000000,1.000000000000000,
-  view4_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,8452.570312500000,0.000000000000000,1.000000000000000,-9191.625000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view4_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view4_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-86121.23706341910,0.000000000000000,1.000000000000000,-32121.56157623289,0.000000000000000,0.000000000000000,0.1713233049944093,
+  view4_Position(0)=149.17017,0.61840171,149.41504,0.36056870,
   view5_Name=City - 15km radius west
   view5_Number=16
-  view5_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
-  view5_Matrix(imageSegment)(0)=775.0000000000000,0.000000000000000,0.000000000000000,0.000000000000000,-811.5078731162557,817.7539365581279,0.000000000000000,0.000000000000000,1.000000000000000,
-  view5_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,15389.04687500000,0.000000000000000,1.000000000000000,-9262.046875000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view5_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view5_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-86121.23706341910,0.000000000000000,1.000000000000000,-32121.56157623289,0.000000000000000,0.000000000000000,0.1713233049944093,
+  view5_Position(0)=149.10797,0.61899173,149.35283,0.36117965,
   view6_Name=City - Sydney
   view6_Number=4
-  view6_Matrix(axisSegment)(0)=6.278294553767088e-06,0.000000000000000,0.1512737537649688,0.000000000000000,5.995848518985892e-06,0.04832561977765766,0.000000000000000,0.000000000000000,1.000000000000000,
-  view6_Matrix(imageSegment)(0)=741.0000000000000,0.000000000000000,0.000000000000000,0.000000000000000,-775.9062373924457,799.9531186962229,0.000000000000000,0.000000000000000,1.000000000000000,
-  view6_Matrix(panSegment)(0)=1.000000000000000,0.000000000000000,13895.56640625000,0.000000000000000,1.000000000000000,-374.9804687500000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view6_Matrix(rotateSegment)(0)=1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,
-  view6_Matrix(zoomSegment)(0)=1.000000000000000,0.000000000000000,-55466.15013713607,0.000000000000000,1.000000000000000,-30138.65234372440,0.000000000000000,0.000000000000000,0.3416614101777593,
+  view6_Position(0)=148.80962,0.76463193,149.29785,0.25062484,
 
 [Jobs]
 
@@ -67,34 +39,97 @@
   Categories=Test Variants|Reference variants
 
 [Predefined Loads]
-  PreDefines=3
-  Predefined1=CCT_Report_Opt2xBase$All Links$4$4$2$sum(frequency)$sum(frequency)$sum(LOAD)$sum(LOAD)$sum(LOAD)$sum(load)$sum(load)$sum(load)$1$1001..1003,50$12..14$1$13$1$1$1001..1003,50$12..14$1$13$1$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$0$4$8$12$16$20$24$28$32$36$40$44$48$52$56$60$12632256$4227327$16711680$3800042$1965556$131070$124670$118270$111870$105470$99070$3369214$6639358$9909502$13179646$16449790$0$1$0.0010$0$1$2$0$2$Shared$Current Variant$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$Shared$Current Variant$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$0$0$$$0$0$0$0.00000$0$All Transit lines$2$sum(LOAD)$$0$$$$2$sum(LOAD)$sum(LOAD)$$$$0$0$0$0$0$0$0$1$1$1$0$$0$$$$$$$$$$$$$$$$$0$40$0$$$$$$$$$$$$$$$$$0$Band Widths$0$Arial;0;10;$0$0$
-  Predefined2=speed$All Links$1$1$2$length/avg(calcspeed)*60$length/avg(calcspeed)*60$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$1$100$12$1$13$1$0:All$0:All$0:All$0:All$0:All$0:All$$0$100$200$300$400$500$600$700$800$900$1000$1100$1200$1300$1400$1500$16776960$16711680$8421504$16711935$32768$65280$12632256$128$8388608$32896$8388736$255$8421376$16777215$65535$0$0$1$10.0000$0$0$0$0$0$$$$$$$0$0$$$1$0$0:All$0.00000$0$All Transit lines$2$sum(load)$$0$$$$2$sum(load)$sum(load)$$$$0$0$0$0$0$0$0$1$0$1$0$$0$$$$$$$$$$$$$$$$$0$100$0$$$$$$$$$$$$$$$$$1$Bandwidths$0$Arial;0;10;$0$0$
-  Predefined3=compare load$All Links$4$1$2$sum(load)$length/avg(calcspeed)*60$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$1$1001$12$1$137$1$1$1001$12$1$137$1$REF_Dominato$0$100$200$300$400$500$600$700$800$900$1000$1100$1200$1300$1400$1500$12632256$16711680$255$16711935$32768$65280$12632256$128$8388608$32896$8388736$255$8421376$16777215$65535$0$0$1$10.0000$0$0$0$0$0$$$$Shared$Value 1$Value 2$0$0$$$1$0$0$0.00000$0$All Transit lines$2$sum(load)$$0$$$$2$sum(load)$sum(load)$$$$0$0$0$0$0$0$0$1$0$1$0$$0$$$$$$$$$$$$$$$$$0$100$0$$$$$$$$$$$$$$$$$1$Bandwidths$0$Arial;0;10;$0$0$
+  Predefined1=CCT_Report_Opt2xBase$All Links$4$4$2$sum(frequency)$sum(frequency)$sum(LOAD)$sum(LOAD)$sum(LOAD)$sum(load)$sum(load)$sum(load)$1$1001..1003,50$12..14$1$13$1$1$1001..1003,50$12..14$1$13$1$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$0$4$8$12$16$20$24$28$32$36$40$44$48$52$56$60$12632256$4227327$16711680$3800042$1965556$131070$124670$118270$111870$105470$99070$3369214$6639358$9909502$13179646$16449790$0$1$0.0010$0$1$2$0$2$Shared$Current Variant$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$Shared$Current Variant$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$0$0$$$0$0$0$0.00000$0$All Transit lines$2$sum(LOAD)$$0$$$$2$sum(LOAD)$sum(LOAD)$$$$0$0$0$0$0$0$0$1$1$1$0$$0$$$$$$$$$$$$$$$$$0$40$0$$$$$$$$$$$$$$$$$0$Band Widths$0$Arial;0;10;$0$0
+  Predefined1.Category=0
+  Predefined2=speed$All Links$1$1$2$length/avg(calcspeed)*60$length/avg(calcspeed)*60$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$1$100$12$1$13$1$0:All$0:All$0:All$0:All$0:All$0:All$$0$100$200$300$400$500$600$700$800$900$1000$1100$1200$1300$1400$1500$16776960$16711680$8421504$16711935$32768$65280$12632256$128$8388608$32896$8388736$255$8421376$16777215$65535$0$0$1$10.0000$0$0$0$0$0$$$$$$$0$0$$$1$0$0:All$0.00000$0$All Transit lines$2$sum(load)$$0$$$$2$sum(load)$sum(load)$$$$0$0$0$0$0$0$0$1$0$1$0$$0$$$$$$$$$$$$$$$$$0$100$0$$$$$$$$$$$$$$$$$1$Bandwidths$0$Arial;0;10;$0$0
+  Predefined2.Category=0
+  Predefined3=compare load$All Links$4$1$2$sum(load)$length/avg(calcspeed)*60$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$sum(load)$1$1001$12$1$137$1$1$1001$12$1$137$1$REF_Dominato$0$100$200$300$400$500$600$700$800$900$1000$1100$1200$1300$1400$1500$12632256$16711680$255$16711935$32768$65280$12632256$128$8388608$32896$8388736$255$8421376$16777215$65535$0$0$1$10.0000$0$0$0$0$0$$$$Shared$Value 1$Value 2$0$0$$$1$0$0$0.00000$0$All Transit lines$2$sum(load)$$0$$$$2$sum(load)$sum(load)$$$$0$0$0$0$0$0$0$1$0$1$0$$0$$$$$$$$$$$$$$$$$0$100$0$$$$$$$$$$$$$$$$$1$Bandwidths$0$Arial;0;10;$0$0
+  Predefined3.Category=0
+  Categories=0
+  Predefines=3
 
 [Predefined Bars]
+  Categories=0
 
 [Predefined Pies]
+  Categories=0
 
 [Predefined Queries]
+  Predefined1=SL_TownHall_M_Inbound
+  Predefined1.Category=0
+  Predefined2=SL_TownHall_M_Outbound
+  Predefined2.Category=0
+  Predefined3=SL_TownHall_M_Both
+  Predefined3.Category=0
+  Predefined4=SL_Central_M_Inbound
+  Predefined4.Category=0
+  Predefined5=SL_Central_M_Outbound
+  Predefined5.Category=0
+  Predefined6=SL_Central_M_Both
+  Predefined6.Category=0
+  Predefined7=SL_Wynyard_M_Inbound
+  Predefined7.Category=0
+  Predefined8=SL_Wynyard_M_Outbound
+  Predefined8.Category=0
+  Predefined9=SL_Wynyard_M_Both
+  Predefined9.Category=0
+  Predefined10=SL_MartinPlace_M_Inbound
+  Predefined10.Category=0
+  Predefined11=SL_MartinPlace_M_Outbound
+  Predefined11.Category=0
+  Predefined12=SL_MartinPlace_M_Both
+  Predefined12.Category=0
+  Predefined13=SL_MartinPlace_CR_Inbound
+  Predefined13.Category=0
+  Predefined14=SL_MartinPlace_CR_Outbound
+  Predefined14.Category=0
+  Predefined15=SL_MartinPlace_CR_Both
+  Predefined15.Category=0
+  Predefined16=SL_TownHall_CR_Inbound
+  Predefined16.Category=0
+  Predefined17=SL_TownHall_CR_Outbound
+  Predefined17.Category=0
+  Predefined18=SL_TownHall_CR_Both
+  Predefined18.Category=0
+  Predefined19=SL_Wynyard_CR_Inbound
+  Predefined19.Category=0
+  Predefined20=SL_Wynyard_CR_Outbound
+  Predefined20.Category=0
+  Predefined21=SL_Wynyard_CR_Both
+  Predefined21.Category=0
+  Predefined22=SL_MartinPlace_M_NonMetro
+  Predefined22.Category=0
+  Predefined23=SLs
+  Predefined23.Category=0
+  Predefined24=PtSL
+  Predefined24.Category=0
+  Predefined25=Selection 47
+  Predefined25.Category=0
+  Categories=0
+  Predefines=25
 
 [Predefined Reports]
-  PreDefines=1
   Predefined1=CoordinatesofNode@102@nodenr@@nodenr@Current selection@1$nodenr@nodenr@0;0;0;0;0;0;<none>;<none>;<none>@Sum@Integer@11@<Current Variant>@<Current Matrix Cube>@nodenr$x@x@0;0;0;0;0;0;<none>;<none>;<none>@None@String@17@<Current Variant>@<Current Matrix Cube>@x
+  Predefined1.Category=0
+  Categories=0
+  Predefines=1
 
 [Predefined Areas]
   PreDefines=0
 
 [Predefined Flows]
+  Categories=0
 
 [Defaults]
+  Zenith=1
   AutoScale=0
   Scale=0.0010000000
-  DistanceFormula=2
-  Projection=2
-  Spheroid=12
-  UTMZone=56
-  NameODN=1
+  Units=0
+  DistanceFormula=3
+  CoordinateSystem=LongLat,WGS84
+  MapProjection=UTM,WGS84,North,56
+  CoordinateSystemEx=
+  MapProjectionEx=
   DataSerie=1
   SelectionObject=101
   BaseColors(0)=16776960,16711680,8421504,16711935,32768,65280,12632256,128,8388608,
@@ -113,10 +148,17 @@
   PathFindingDepth=10
   EditJunctions=0
   JobPriority=4
-  Zenith=1
   Crypted=0
   ForceLevel2Index=0
+  ShowSelectionShape=1
+  SelectionShapeColor=0
+  SelectionShapeWidth=1
   AutoLogging=0
+  ControlsVisible=0
+  RoutesVisible=0
+  DefaultViewName=
+  HoverCoordinates=0
+  DegreesInMinSec=0
   MessageLevel=1
   CollectionActivated=0
   AuditCollectJobs=1
@@ -187,9 +229,6 @@
   PathHeaders=Paths$Links$Transit Lines$Labels$Access$Egress$Transfer
 
 [Maps]
-  PosX=0.000000000000000
-  PosY=0.000000000000000
-  MaxX=200.0000000000000
   NMaps=0
 
 [PrintProperties]
@@ -225,98 +264,174 @@
   Types=Labels for Areas$Labels for Counts$Labels for Links$Labels for Nodes$Labels for Screenlines$Labels for Stops$Labels for Transit$Labels for Turns$Labels for Zones$Loads$Queries$Reports
 
 [Predefined Labels for Links]
-  PreDefines=11
-  Predefined1=Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@linknr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@linktag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@linknr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@linknr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@linknr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined8=Road Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@roadnumber@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined9=Link Type Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@typenr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined10=Screenline Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined11=Transitline Number$1627393$true$$Arial$0$Default$10$$0$16777215$0$1$@@@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@linknr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@linktag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@linknr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@linknr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@linknr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@linktag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Predefined8=Road Number$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@roadnumber@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined8.Category=0
+  Predefined9=Link Type Number$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@typenr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined9.Category=0
+  Predefined10=Screenline Number$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@screenlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined10.Category=0
+  Predefined11=Transitline Number$1627393$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@transitlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined11.Category=0
+  Categories=0
+  Predefines=11
 
 [Predefined Labels for Zones]
-  PreDefines=7
-  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@centroidnr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@centroidtag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@centroidnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@centroidnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@centroidnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@centroidnr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@centroidtag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@centroidnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@centroidnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@centroidnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@centroidtag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7
 
 [Predefined Labels for Areas]
-  PreDefines=7
-  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@areanr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@areatag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@areanr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@areanr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@areanr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@areanr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@areatag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@areanr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@areanr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@areanr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@areatag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7
 
 [Predefined Labels for Nodes]
-  PreDefines=7
-  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@nodenr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@nodetag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@nodenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@nodenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@nodenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@nodenr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@nodetag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@nodenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@nodenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@nodenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@nodetag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7
 
 [Predefined Labels for Turns]
-  PreDefines=7
-  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@turnnr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@turntag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@turnnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@turnnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@turnnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@turnnr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@turntag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@turnnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@turnnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@turnnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@turntag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7
 
 [Predefined Labels for Stops]
-  PreDefines=7
-  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@stopnr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@stoptag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@stopnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@stopnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@stopnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@stopnr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@stoptag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@stopnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@stopnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@stopnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@stoptag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7
 
 [Predefined Labels for Counts]
-  PreDefines=7
-  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@countnr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@counttag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@countnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@countnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@countnr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@countnr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@counttag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@countnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@countnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@countnr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@counttag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7
 
 [Predefined Labels for Transit]
-  PreDefines=7
-  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@transittag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@transitlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@transitlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@transittag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@transitlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@transitlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@transitlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@transittag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7
 
 [Predefined Labels for Screenlines]
-  PreDefines=7
-  Predefined1=Number$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined2=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined3=Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@screentag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined4=Number; Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined5=Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined6=Number; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Predefined7=Number; Name; Tag$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@;@screenlinenr@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@0@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@0@0@0@0@0@0@0@0:All@0:All@0:All
+  Predefined1=Number$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@screenlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined1.Category=0
+  Predefined2=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined2.Category=0
+  Predefined3=Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@screentag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined3.Category=0
+  Predefined4=Number; Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@screenlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined4.Category=0
+  Predefined5=Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined5.Category=0
+  Predefined6=Number; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$2$@@;@screenlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined6.Category=0
+  Predefined7=Number; Name; Tag$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$3$@@;@screenlinenr@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@name@@0@0@0@0@0@0@0:All@0:All@0:All$@@;@screentag@@0@0@0@0@0@0@0:All@0:All@0:All$
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7
 
 [ExtendedParameter]
   Prefix(0)=P_
@@ -337,3 +452,30 @@
   Suffix(6)=
   Suffix(7)=
   Suffix(8)=
+
+[Predefined Labels for Controls]
+  Categories=0
+
+[Predefined Labels for Routes]
+  Categories=0
+
+[Predefined Object Colors]
+  Categories=0
+
+[Predefined Views]
+  Predefined1=CCT
+  Predefined1.Category=0
+  Predefined2=CCT_Report_CBD
+  Predefined2.Category=0
+  Predefined3=Centroid_2706
+  Predefined3.Category=0
+  Predefined4=Centroid_317_318
+  Predefined4.Category=0
+  Predefined5=City - 15km radius
+  Predefined5.Category=0
+  Predefined6=City - 15km radius west
+  Predefined6.Category=0
+  Predefined7=City - Sydney
+  Predefined7.Category=0
+  Categories=0
+  Predefines=7

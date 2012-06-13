@@ -41,131 +41,86 @@
 [LineSQL]
   NrOfProperties=0
 
-[Paths]
-  TransitThroughZones=0
-  AccessFactors=1
-  EgressFactors=1
-  AccessLengthFac=0
-  AccessTimeFac=1
-  EgressLengthFac=0
-  EgressTimeFac=1
-  AccessMinRadius=1
-  AccessMaxRadius=2
-  AccessMinCandidates=2
-  AccessMaxCandidates=10
-  ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
-  Mode=200
-  Period=12
-  LengthFactor=0.0000000
-  TimeFactor=1.0000000
-  ThroughZones=0
-  UTurns=0
-  InterSections=0
-  InitCosts=1
-  Dimension0=1
-  AccessDimension0=1
-  EgressDimension0=1
-  Dimension1=50
-  AccessDimension1=1
-  EgressDimension1=1
-  Dimension2=12
-  AccessDimension2=1
-  EgressDimension2=1
-  Dimension3=1
-  AccessDimension3=1
-  EgressDimension3=1
-  Dimension4=13
-  AccessDimension4=1
-  EgressDimension4=1
-  Dimension5=1
-  AccessDimension5=1
-  EgressDimension5=1
-  WalkingMode=30
-  TransitFactors=1;0.000000;0.000000;0.000000;0.000000;0.000000@2;0.000000;0.000000;0.000000;0.000000;0.000000
-  TransitMethod=0
-  Size=2
-  MinLable=0.0000000
-  SectionTolerance=0.10000000
-  FixedSize=1
-  WalkOnly=0
-  StopChoice=0
-  LineChoice=0
-  MaxTransfers=3
-  AccessMode=0
-  EgressMode=0
-  ServiceSpread=0.035000000
-  CandidateSpread=0.035000000
-  CandidateTreshold=0.0000000
-  LineTreshold=0.0099999998
-  AccessInitCost=0
-  EgressInitCost=0
-  AccessCriteria=
-  EgressCriteria=
-  TransferCriteria=
-  AccessRouteFactors=
-  EgressRouteFactors=
-  TransferRouteFactors=
-  MustFindModes=
-  MustFindStops=<none>
-  MustFindStopSerie=0
-  MustFindStopTypes=
-  SpecialAccess=
-  FareScheme=
-  UseCongestedSpeeds=0
-  CongestedSpeeds=
-  CongestedLinks=
-  CongestedLinkSerie=0
-  CongestedLinkTypes=
-  AccessLabelColor=16776960
-  EgressLabelColor=65280
-  TransferLabelColor=16711935
-  AccessColor=16711680
-  EgressColor=16711680
-  TransferColor=16711680
-  StopLabels=1
-  TransitColors=
-  DisplayLinks=0
-  TransitNumber=1
-  TransitName=0
-  TransitTag=0
+[Variable]
+  NrOfFormpoints=408
+  MaxFormpointNr=408
+  NrOfSegments=528
+  MaxSegmentNr=528
+  LoadDimensions(0)=1,1003,14,33,138,2,
+  NrOfCentroids=133
+  MaxCentroidNr=133
+  NrOfNodes=309
+  MaxNodeNr=32672
+  NrOfCounts=0
+  MaxCountNr=0
+  NrOfLinks=497
+  MaxLinkNr=38830
+  NrOfTurns=1699
+  NrOfUserTurns=20
+  MaxTurnNr=1699
+  NrOfScreenlines=0
+  MaxScreenlineNr=0
+  NrOfTransitlines=2
+  MaxTransitlineNr=1126
+  NrOfStops=107
+  MaxStopNr=29308
+  NrOfAreas=133
+  MaxAreaNr=266
+  NrOfControls=0
+  MaxControlNr=0
+  NrOfRoutes=0
+  MaxRouteNr=0
+
+[ExtendedParameter]
+  Name=sydney
+
+[Info]
+  Title=
+  SubTitle=
+  Author=
+  OrgVariant=REF_Dominato
+  InfoLineRTF={\rtf1\ansi\ansicpg1252\deff0\deflang3081{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}\viewkind4\uc1\pard\f0\fs16 \par }
+
+[StopSQL]
+  NrOfProperties=0
+
+[AreaSQL]
+  NrOfProperties=0
+
+[ControlSQL]
+  NrOfProperties=0
+
+[RouteSQL]
+  NrOfProperties=0
 
 [Areas]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=0
   Nr=0
   Name=0
   Tag=0
-  ShowPoints=0
   Transparent=0
   FixedSize=0
+  PointsFixedSize=0
   SerieNr=14
-  Filter=<all areas>
+  Filter=All
   Opacity=50
   EdgeWidth=1
   PointSize=0
 
 [Bars]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$0$
+  AsDesign=0
   Name=<none>
-  Scope=All Centroids
+  Scope=All
   Expression=Bar1@seaport_cv@0;0;0;0;0;0;<none>;<none>
   Show=0
   Value=0
@@ -181,22 +136,21 @@
   AutoScale=0
   MinLable=0.0000000
   TransitScope=All Transit lines
-  StopScope=All stops
-  CentroidScope=All centroids
+  StopScope=All
+  CentroidScope=All
   Opacity=100
   Gradient=0
   Precision=0
   Header=Histograms
   FixedSize=0
+  DrawEdge=1
 
 [Controls]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=1
   Nr=0
   Name=0
@@ -206,16 +160,14 @@
   SerieNr=0
   ShowLinks=0
   Hierarchic=0
-  Filter=<all controls>
+  Filter=All
 
 [Counts]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=16711680
-  Font.Pitch=Default
-  Font.Size=7
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=0
   Nr=1
   Name=0
@@ -224,16 +176,15 @@
   Size=20
   Offset=1
   SerieNr=0
-  Filter=<all counts>
+  Filter=All
 
 [Flows]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$0$
+  AsDesign=0
   Name=
   Show=0
   Style=1
@@ -324,26 +275,12 @@
   StackedLable=0
 
 [General]
-  ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
   SuperMode=0
   AutoOpen=0
   AutoOpenPos(0)=-1,-1,-1,-1,-1,
   AutoOpenView=0
 
 [Junctions]
-  ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
   Names=1
   Labels=1
   OrderNrs=1
@@ -352,33 +289,29 @@
   Precision=1
   Scale=1
   Loadfactor=1.0000000
-  LabelFont.Name=Tahoma
-  LabelFont.Color=-16777208
+  Font.Name=Arial
+  Font.Color=0
+  Font.Pitch=Default
+  Font.Size=10
+  Font.Style=
+  LabelFont.Name=Arial
+  LabelFont.Color=0
   LabelFont.Pitch=Default
-  LabelFont.Size=8
+  LabelFont.Size=10
   LabelFont.Style=
   Color=65535
   AutoScale=1
   Size=1.0000000
 
 [Legend]
-  ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
   Show=1
 
 [Links]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial Narrow
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=8
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=1
   Nr=0
   Name=0
@@ -388,6 +321,7 @@
   RoadNr=0
   Tag=0
   FixedSize=1
+  PointsFixedSize=0
   Size=1
   Arrow=3
   FormpointSize=0
@@ -602,49 +536,15 @@
   Lanes=0
   HideNodes=1
   Segments=1
-  Filter=<all links>
-
-[Variable]
-  LoadDimensions(0)=1,1003,14,33,138,2,
-  NrOfCentroids=133
-  MaxCentroidNr=133
-  NrOfNodes=309
-  MaxNodeNr=32672
-  NrOfFormpoints=408
-  MaxFormpointNr=408
-  NrOfCounts=0
-  MaxCountNr=0
-  NrOfLinks=497
-  MaxLinkNr=38830
-  NrOfSegments=528
-  MaxSegmentNr=528
-  NrOfTurns=1699
-  NrOfUserTurns=20
-  MaxTurnNr=1699
-  NrOfScreenlines=0
-  MaxScreenlineNr=0
-  NrOfTransitlines=2
-  MaxTransitlineNr=1126
-  NrOfStops=107
-  MaxStopNr=29308
-  NrOfAreas=133
-  MaxAreaNr=266
-  NrOfControls=0
-  MaxControlNr=0
-  NrOfRoutes=0
-  MaxRouteNr=0
-
-[ExtendedParameter]
-  Name=sydney
+  Filter=All
 
 [Loads]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$0$
+  AsDesign=0
   Show=0
   Fixed=0
   LoadName=speed
@@ -657,7 +557,7 @@
   Dynamic=2
   DynamicCompare=2
   DynamicValueCompare=2
-  Scope=All Links
+  Scope=All
   Percentual=0
   SingleBarAttribute=length/avg(calcspeed)*60
   SingleColorAttribute=length/avg(calcspeed)*60
@@ -757,7 +657,7 @@
   AutoScale=1
   MinLable=0.0000000
   LableColor=0
-  TransitScope=All Transit lines
+  TransitScope=All
   DynamicValueFill=1
   LegendStyle=0
   CompareShared=1
@@ -770,15 +670,15 @@
   DrawStyle=0
   Clipped=0
   FixedSize=0
+  ShowComparedLinks=0
+  MinLableAbs=0
 
 [Nodes]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=8421504
-  Font.Pitch=Default
-  Font.Size=7
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=1
   Nr=0
   Name=0
@@ -793,18 +693,17 @@
   Dimension4=0
   Dimension5=0
   Expression=sum(load)
-  Filter=<all nodes>
+  Filter=All
 
 [Object Colors]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$0$
+  AsDesign=0
   Name=transitlines_by_mode
-  Scope=All Transit lines
+  Scope=All
   Expression=mode
   Show=0
   value=0
@@ -845,15 +744,98 @@
   LegendText15=
   Header=Transitlines
   Clipped=1
+  MinLableAbs=0
 
-[Pies]
-  ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
+[Paths]
+  Mode=200
+  Period=12
+  LengthFactor=0.0000000
+  TimeFactor=1.0000000
+  ThroughZones=0
+  UTurns=0
+  InterSections=0
+  InitCosts=1
+  Dimension0=1
+  AccessDimension0=1
+  EgressDimension0=1
+  Dimension1=50
+  AccessDimension1=1
+  EgressDimension1=1
+  Dimension2=12
+  AccessDimension2=1
+  EgressDimension2=1
+  Dimension3=1
+  AccessDimension3=1
+  EgressDimension3=1
+  Dimension4=13
+  AccessDimension4=1
+  EgressDimension4=1
+  Dimension5=1
+  AccessDimension5=1
+  EgressDimension5=1
+  WalkingMode=30
+  TransitFactors=1;0.000000;0.000000;0.000000;0.000000;0.000000@2;0.000000;0.000000;0.000000;0.000000;0.000000
+  TransitMethod=0
+  Size=2
+  MinLable=0.0000000
+  SectionTolerance=0.10000000
+  FixedSize=1
+  WalkOnly=0
+  StopChoice=0
+  LineChoice=0
+  MaxTransfers=3
+  AccessMode=0
+  EgressMode=0
+  ServiceSpread=0.035000000
+  TransferServiceSpread=0.0000000
+  CandidateSpread=0.035000000
+  CandidateTreshold=0.0000000
+  LineTreshold=0.0099999998
+  AccessInitCost=0
+  EgressInitCost=0
+  AccessCriteria=
+  EgressCriteria=
+  TransferCriteria=
+  AccessRouteFactors=
+  EgressRouteFactors=
+  TransferRouteFactors=
+  MustFindModes=
+  MustFindStops=<none>
+  MustFindStopSerie=0
+  MustFindStopTypes=
+  SpecialAccess=
+  FareScheme=
+  UseCongestedSpeeds=0
+  CongestedSpeeds=
+  CongestedLinks=
+  CongestedLinkSerie=0
+  CongestedLinkTypes=
+  AccessLabelColor=16776960
+  EgressLabelColor=65280
+  TransferLabelColor=16711935
+  AccessColor=16711680
+  EgressColor=16711680
+  TransferColor=16711680
+  StopLabels=1
+  TransitColors=
+  DisplayLinks=0
+  TransitNumber=1
+  TransitName=0
+  TransitTag=0
   Font.Name=Arial
   Font.Color=0
   Font.Pitch=Default
   Font.Size=10
   Font.Style=
+  FaresEnabled=1
+
+[Pies]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
+  ShowLabel=0
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$0$
+  AsDesign=0
   Show=0
   Value=0
   Fixed=0
@@ -869,23 +851,22 @@
   AutoScale=1
   MinLable=0.0000000
   TransitScope=All transitlines
-  StopScope=All stops
-  CentroidScope=All centroids
+  StopScope=All
+  CentroidScope=All
   Opacity=100
   Gradient=0
   Precision=0
   Header=Pie Charts
   FixedSize=0
   UseSurfaceAsRadius=0
+  DrawEdge=1
 
 [Routes]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=10
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=0
   Nr=0
   Name=0
@@ -895,16 +876,14 @@
   Spacing=0.0000000
   Arrow=5
   FixedSize=0
-  Filter=<all routes>
+  Filter=All
 
 [Screenlines]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=1
-  LabelDesign=Name$1627402$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=8
-  Font.Style=
+  LabelDesign=Name$1627402$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=0
   Nr=0
   Name=1
@@ -913,16 +892,14 @@
   Retour=1
   FixedSize=1
   SerieNr=0
-  Filter=<all screenlines>
+  Filter=All
 
 [Stops]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=8421504
-  Font.Pitch=Default
-  Font.Size=7
-  Font.Style=Bold
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=1
   Nr=0
   Name=0
@@ -930,16 +907,14 @@
   Tag=0
   Size=15
   SerieNr=14
-  Filter=<all stops>
+  Filter=All
 
 [Transit]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=7
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=1
   Nr=0
   Tag=0
@@ -949,16 +924,15 @@
   FixedSize=1
   SerieNr=0
   Spacing=1.0000000
-  Filter=<all transitlines>
+  Filter=All
+  OffsetStyle=0
 
 [Turns]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=7
-  Font.Style=
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=1
   Nr=0
   Name=0
@@ -969,16 +943,14 @@
   FixedSize=1
   Mode=2
   SerieNr=0
-  Filter=<all turns>
+  Filter=All
 
 [Zones]
+  ZoomLevelLow=-1.0000000
+  ZoomLevelHigh=-1.0000000
+  LabelPrecision=-1
   ShowLabel=0
-  LabelDesign=$1$true$$Arial$0$Default$10$$0$16777215$0$1$@@@name@0@0@0@0@0@0@0@0:All@0:All@0:All
-  Font.Name=Arial
-  Font.Color=0
-  Font.Pitch=Default
-  Font.Size=8
-  Font.Style=Italic
+  LabelDesign=$1$1$$Arial;0;10;$0$16777215$0$1$-1.0$-1.0$1$@@@name@@0@0@0@0@0@0@0:All@0:All@0:All$
   Show=1
   Nr=1
   Name=0
@@ -986,23 +958,4 @@
   Tag=0
   Size=10
   SerieNr=5
-  Filter=<all centroids>
-
-[Info]
-  Title=
-  SubTitle=
-  Author=
-  OrgVariant=REF_Dominato
-  InfoLineRTF={\rtf1\ansi\ansicpg1252\deff0\deflang3081{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}\viewkind4\uc1\pard\f0\fs16 \par }
-
-[StopSQL]
-  NrOfProperties=0
-
-[AreaSQL]
-  NrOfProperties=0
-
-[ControlSQL]
-  NrOfProperties=0
-
-[RouteSQL]
-  NrOfProperties=0
+  Filter=All

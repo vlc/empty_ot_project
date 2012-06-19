@@ -131,7 +131,7 @@
   CoordinateSystemEx=
   MapProjectionEx=
   DataSerie=1
-  SelectionObject=101
+  SelectionObject=107
   BaseColors(0)=16776960,16711680,8421504,16711935,32768,65280,12632256,128,8388608,
   BaseColors(1)=32896,8388736,255,8421376,16777215,65535,0,
   SelectionColor=255
@@ -156,7 +156,7 @@
   AutoLogging=0
   ControlsVisible=0
   RoutesVisible=0
-  DefaultViewName=
+  DefaultViewName=<none>
   HoverCoordinates=0
   DegreesInMinSec=0
   MessageLevel=1

@@ -37,6 +37,7 @@
   OrderNr=0
   Level=0
   Categories=Test Variants|Reference variants
+  ExpandedCategories=1|1
 
 [Predefined Loads]
   Predefined1=CCT_Report_Opt2xBase$All Links$4$4$2$sum(frequency)$sum(frequency)$sum(LOAD)$sum(LOAD)$sum(LOAD)$sum(load)$sum(load)$sum(load)$1$1001..1003,50$12..14$1$13$1$1$1001..1003,50$12..14$1$13$1$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$0$4$8$12$16$20$24$28$32$36$40$44$48$52$56$60$12632256$4227327$16711680$3800042$1965556$131070$124670$118270$111870$105470$99070$3369214$6639358$9909502$13179646$16449790$0$1$0.0010$0$1$2$0$2$Shared$Current Variant$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$Shared$Current Variant$CrossCity_Run14_OptimalSplit_TollLess20Perc_30Iter$0$0$$$0$0$0$0.00000$0$All Transit lines$2$sum(LOAD)$$0$$$$2$sum(LOAD)$sum(LOAD)$$$$0$0$0$0$0$0$0$1$1$1$0$$0$$$$$$$$$$$$$$$$$0$40$0$$$$$$$$$$$$$$$$$0$Band Widths$0$Arial;0;10;$0$0
@@ -188,9 +189,6 @@
   StopDwelltime=0.0000000
   TransitlineRetour=0
   TransitlineRecalcTravelTime=1
-  TimeTables=0
-  TimeTableOffset=0
-  TimeTableMapping=
   JunctionMode=50
   JunctionTime=11
 

@@ -155,7 +155,7 @@
   SelectionShapeColor=0
   SelectionShapeWidth=1
   AutoLogging=0
-  ControlsVisible=0
+  ControlsVisible=1
   RoutesVisible=0
   DefaultViewName=<none>
   HoverCoordinates=0
@@ -189,6 +189,8 @@
   StopDwelltime=0.0000000
   TransitlineRetour=0
   TransitlineRecalcTravelTime=1
+  ControlEditorMode=-1
+  ControlEditorTime=-1
   JunctionMode=50
   JunctionTime=11
 
@@ -477,3 +479,12 @@
   Predefined7.Category=0
   Categories=0
   Predefines=7
+
+[DynamicTimes]
+  TimeMappingSpecified=0
+  StartDimension=0
+  StartMinutes=0
+  IntervalDimension=1
+  IntervalMinutes=1
+  DayPartMapping=
+  ReferenceTime=0

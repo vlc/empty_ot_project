@@ -72,7 +72,7 @@
   MaxRouteNr=0
 
 [ExtendedParameter]
-  Name=sydney
+  Name=Dummy
 
 [Info]
   Title=

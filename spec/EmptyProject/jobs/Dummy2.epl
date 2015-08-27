@@ -1,7 +1,7 @@
 
 [UD0]
-  Key=Project_params
-  Value=Dummy2
+  Key=ZMR_params1
+  Value=Dummy
   Description=
   Group=ZenithProjectModelParametersTest
   Type=32769

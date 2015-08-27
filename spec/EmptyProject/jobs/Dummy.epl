@@ -4,33 +4,60 @@
   Value=10
   Description=Wicked parameter!!!
   Group=MyGroup
+  Type=0
 
 [UD1]
   Key=MyParam2
   Value=true
   Description=Another Wicked parameter!!!
   Group=MyGroup
+  Type=0
 
 [UD2]
   Key=MyParam3
   Value={10=>15}
   Description=Yet Another Wicked parameter!!!
   Group=MyGroup2
+  Type=0
 
 [UD3]
   Key=MyParam4
   Value=80
   Description=Yet Another Wicked parameter!!!
   Group=MyGroup2
+  Type=0
 
 [UD4]
   Key=MyParam5
   Value=80
   Description=Yet Another Wicked parameter!!!
   Group=MyGroup2
+  Type=0
 
 [UD5]
   Key=DwellTimeByMode
   Value={"Bus"=>0.33, "CityRail"=>0.67, "LightRail"=>0.3, "Metro"=>0.67, "Monorail"=>0.3, "ManlyJetCat"=>1.5, "InnerHarbourFerry1"=>1.5, "ManlyFerry"=>1.5, "InnerHarbourFerry2"=>1.5}
   Description=Default dwell times by mode; used in import / export, and in correcting dwell times which are set to zero
   Group=Network
+  Type=0
+
+[UD6]
+  Key=ZMR_parameters
+  Value=
+  Description=
+  Group=ZenithProjectModelParametersTest
+  Type=32769
+
+[UD7]
+  Key=ZMR_params1
+  Value=
+  Description=
+  Group=ZenithProjectModelParametersTest
+  Type=32769
+
+[UD8]
+  Key=ZMR_params2
+  Value=Dummy
+  Description=
+  Group=ZenithProjectModelParametersTest
+  Type=32769

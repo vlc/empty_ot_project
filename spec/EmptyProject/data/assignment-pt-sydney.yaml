@@ -34,7 +34,6 @@ must_find_access_candidates:
     num: 2
   - mode: Bus
     num: 1
-pt_value_of_time: 800.0
 walk_specific_interchange_file: walkinterchange-sydney_metro_central4red4fix.wsi
 max_interchanges: 3
 pt_assignment_config: new

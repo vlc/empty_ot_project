@@ -488,3 +488,7 @@
   IntervalMinutes=1
   DayPartMapping=
   ReferenceTime=0
+
+[ProjectView]
+  MatrixCubeVisibility=1
+  ParametersVisible=1
